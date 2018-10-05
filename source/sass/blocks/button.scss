@@ -1,37 +1,41 @@
 .button {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 18px;
-    color: rgb(255, 255, 255);
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
+  color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  min-width: 276px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &--download {
+    margin-bottom: 30px;
+  }
+
+  &--active {
+    border-color: rgb(210, 40, 86);
+    color: rgb(210, 40, 86);
+    margin-bottom: 12px;
+  }
+
+  &--inactive {
+    opacity: 0.1;
+    border-color: rgb(40, 54, 69);
+    color: rgb(40, 54, 69);
+  }
+
+  &--submit,
+  &--ok,
+  &--shut {
+    border-radius: 0;
+    background-color: rgb(42, 171, 109);
+    border: 2px solid rgb(42, 171, 109);
     min-width: 276px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    &--download {
-        margin-bottom: 30px;
-    }
-    &--active {
-        border-color: rgb(210, 40, 86);
-        color: rgb(210, 40, 86);
-        margin-bottom: 12px;
-    }
-    &--inactive {
-        opacity: 0.1;
-        border-color: rgb(40, 54, 69);
-        color: rgb(40, 54, 69);
-    }
-    &--submit,
-    &--ok,
-    &--shut {
-        border-radius: 0px;
-        background-color: rgb(42, 171, 109);
-        border: 2px solid rgb(42, 171, 109);
-        min-width: 276px;
-        text-transform: uppercase;
-        line-height: 30px;
-    }
+    text-transform: uppercase;
+    line-height: 30px;
+  }
 }

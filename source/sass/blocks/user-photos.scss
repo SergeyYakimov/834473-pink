@@ -1,18 +1,22 @@
 .user-photos {
-    margin-top: -57px;
-    &__list {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+  margin-top: -57px;
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin-bottom: 20px;
+    background-color: rgb(242, 242, 242);
+
+    &:last-child {
+      margin-bottom: 50px;
+    }    
+
+    &:first-child {
+      position: relative;
     }
-    &__item {
-        margin-bottom: 20px;
-        background-color: rgb(242, 242, 242);
-        &:last-child {
-            margin-bottom: 50px;
-        }
-        &:first-child {
-            position: relative;
-        }
-    }
+  }
 }

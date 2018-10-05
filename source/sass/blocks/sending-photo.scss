@@ -1,12 +1,14 @@
 .sending-photo {
-    background-color: rgb(242, 242, 242);
-    &__slogan {
-        line-height: 30px;
-        background-color: rgb(255, 255, 255);
-        text-align: center;
-        padding-bottom: 45px;
-    }
-    &__sample-image {
-        margin-bottom: 42px;
-    }
+  background-color: rgb(242, 242, 242);
+
+  &__slogan {
+    line-height: 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 45px;
+  }
+
+  &__sample-image {
+    margin-bottom: 42px;
+  }
 }

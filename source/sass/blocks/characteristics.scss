@@ -1,23 +1,26 @@
 .characteristics {
-    display: flex;
-    justify-content: space-between;
-    &__index {
-        line-height: 30px;
-        text-transform: uppercase;
-        margin-left: 22px;
-    }
-    &__check {
-        background-image: url('../../img/icon-yes.svg');
-        background-repeat: no-repeat;
-        width: 31px;
-        height: 21px;
-        margin-right: 19px;
-    }
-    &__check--no {
-        background-image: url('../../img/icon-no.svg');
-        background-repeat: no-repeat;
-        width: 27px;
-        height: 26px;
-        margin-right: 24px;
-    }
+  display: flex;
+  justify-content: space-between;
+
+  &__index {
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 22px;
+  }
+
+  &__check {
+    background-image: url("../../img/icon-yes.svg");
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 21px;
+    margin-right: 19px;
+  }
+
+  &__check--no {
+    background-image: url("../../img/icon-no.svg");
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 26px;
+    margin-right: 24px;
+  }
 }

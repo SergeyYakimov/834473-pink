@@ -1,9 +1,10 @@
 .warning {
-    line-height: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 24px;
-    &__sign {
-        color: rgb(210, 40,86);
-    }
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 24px;
+
+  &__sign {
+    color: rgb(210, 40, 86);
+  }
 }
