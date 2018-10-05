@@ -1,0 +1,19 @@
+.fio {
+    margin: 0px;
+    padding: 0px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 28px;
+        &:last-child {
+            margin-bottom: 42px;
+        }
+    }
+    &__label {
+        font-size: 14px;
+        line-height: 30px;
+        color: rgb(210, 40, 86);
+        text-transform: uppercase;
+        padding-left: 23px;
+    }
+}

@@ -1,0 +1,11 @@
+.tools-processing {
+    border-bottom: rgb(221, 223, 224);
+    padding-bottom: 34px;
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}

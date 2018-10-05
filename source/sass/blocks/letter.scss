@@ -1,0 +1,12 @@
+.letter {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 41px;
+    margin-bottom: 50px;
+    &__label {
+        line-height: 30px;
+        color: rgb(210, 40, 86);
+        text-transform: uppercase;
+        padding-left: 48px;
+    }
+}

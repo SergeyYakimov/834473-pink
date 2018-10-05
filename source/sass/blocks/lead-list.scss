@@ -1,0 +1,12 @@
+.lead-list {
+    color: rgb(40, 54, 69);
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    &__item {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.contacts-participant {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 41px;
+    padding-bottom: 44px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+    &__label {
+        font-size: 14px;
+        line-height: 30px;
+        color: rgb(210, 40, 86);
+        text-transform: uppercase;
+        padding-left: 23px;
+    }
+}

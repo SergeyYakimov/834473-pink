@@ -1,0 +1,16 @@
+.achievements {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &__item {
+        margin-bottom: 63px;
+        &:last-child {
+            margin-bottom: 50px;
+        }
+    }
+    &__label {
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 33px;
+    }
+}
