@@ -7,15 +7,12 @@
         text-transform: uppercase;
         color: rgb(255, 255, 255);
         background-color: rgb(40, 54, 69);
+        text-align: center;
     }
     &__price {
         font-weight: lighter;
         font-size: 24px;
         line-height: 30px;
         color: rgb(255, 255, 255);
-    }
-    &__index {
-        line-height: 30px;
-        text-transform: uppercase;
     }
 }

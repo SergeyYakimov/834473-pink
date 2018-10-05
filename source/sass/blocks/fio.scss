@@ -1,9 +1,12 @@
 .fio {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(255,255,255);
     &__item {
         display: flex;
         flex-direction: column;
+        padding: 0px;
+        margin: 0px;
         margin-bottom: 28px;
         &:last-child {
             margin-bottom: 42px;

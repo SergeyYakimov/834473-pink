@@ -3,4 +3,8 @@
     height: 462px;
     background-image: url('../../img/bg-back-mobile@1x.jpg');
     background-repeat: no-repeat;
+    &--index {
+        background-image: url('../../img/iphone-hand-mobile@1x.png'), url('../../img/bg-back-mobile@1x.jpg');
+        background-position: left bottom, left top;
+    }
 }
