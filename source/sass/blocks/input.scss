@@ -11,4 +11,12 @@
     font-size: 18px;
     line-height: 30px;
   }
+
+  &:hover {
+    border: 2px solid rgb(40, 54, 69);
+  }
+
+  &:focus {
+    border: 2px solid rgb(210, 40, 86);
+  }
 }

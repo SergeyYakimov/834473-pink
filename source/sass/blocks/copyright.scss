@@ -4,4 +4,18 @@
   &__text {
     line-height: 18px;
   }
+
+  &__link {
+    & path {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:hover path {
+      fill: rgb(40, 54, 69);
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+  }
 }

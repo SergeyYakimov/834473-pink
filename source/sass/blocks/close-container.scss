@@ -5,6 +5,15 @@
 
   &__logo {
     margin-right: 180px;
+
+    &:hover path {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:active path {
+      fill: rgb(255, 255, 255);
+      opacity: 0.3;
+    }
   }
 
   &__close {
