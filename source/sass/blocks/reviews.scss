@@ -1,0 +1,31 @@
+.reviews {
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__author {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  &__author-name {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  &__toggles {
+    margin-bottom: 40px;
+  }
+}

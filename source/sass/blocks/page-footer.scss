@@ -1,0 +1,25 @@
+.page-footer {
+  padding-top: 40px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-bottom: 40px;
+
+    &:hover path {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:active {
+      opacity: 0.3;
+
+      & g path {
+        fill: rgb(40, 54, 69);
+      }
+    }
+  }
+}

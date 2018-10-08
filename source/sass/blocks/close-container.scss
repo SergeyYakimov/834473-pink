@@ -1,0 +1,27 @@
+.close-container {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__logo {
+    margin-right: 180px;
+
+    &:hover path {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:active path {
+      fill: rgb(255, 255, 255);
+      opacity: 0.3;
+    }
+  }
+
+  &__close {
+    width: 24px;
+    font-size: 0;
+    border: 0;
+    background-color: transparent;
+    background-image: url("../img/icon-menu-cross.svg");
+    background-repeat: no-repeat;
+  }
+}

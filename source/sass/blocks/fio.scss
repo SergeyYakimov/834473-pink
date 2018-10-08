@@ -1,0 +1,25 @@
+.fio {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 28px;
+
+    &:last-child {
+      margin-bottom: 42px;
+    }
+  }
+
+  &__label {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(210, 40, 86);
+    text-transform: uppercase;
+    padding-left: 23px;
+  }
+}

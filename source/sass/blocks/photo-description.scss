@@ -1,0 +1,20 @@
+.photo-description {
+  padding-top: 25px;
+  padding-left: 17px;
+  padding-right: 31px;
+  padding-bottom: 18px;
+
+  &__author {
+    font-weight: bold;
+  }
+
+  &__time {
+    font-weight: lighter;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-bottom: 22px;
+  }
+}

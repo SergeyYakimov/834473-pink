@@ -1,0 +1,17 @@
+.like {
+  &__button {
+    font-size: 0;
+    border: 0;
+    width: 13px;
+    height: 12px;
+    background-image: url("../img/icon-heart.svg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+  }
+
+  &__counter {
+    font-size: 12px;
+    color: rgb(210, 40, 86);
+    text-transform: uppercase;
+  }
+}
