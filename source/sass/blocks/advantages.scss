@@ -21,3 +21,22 @@
     margin-bottom: 40px;
   }
 }
+
+@media (min-width: 660px) {
+  .advantages {
+    background-image: url("../img/iphone-screen-3-tablet@1x.png");
+    background-position: left top;
+    text-align: left;
+    padding-bottom: 0px;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      padding-left: 310px;
+    }
+
+    &__item {
+      margin-bottom: 0;
+    }
+  }
+}

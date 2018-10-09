@@ -7,6 +7,10 @@
     align-items: center;
   }
 
+  &__bottom {
+    display: none;
+  }
+
   &__logo {
     margin-bottom: 40px;
 
@@ -20,6 +24,23 @@
       & g path {
         fill: rgb(40, 54, 69);
       }
+    }
+  }
+}
+
+@media (min-width: 660px) {
+  .page-footer {
+    padding-top: 53px;
+
+    &__wrapper {
+    padding-left: 47px;
+    padding-right: 31px;
+    }
+
+    &__bottom {
+      display: flex;
+      padding-left: 0;
+      justify-content: space-between;
     }
   }
 }

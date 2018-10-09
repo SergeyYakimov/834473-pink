@@ -6,3 +6,9 @@
   justify-content: center;
   margin-bottom: 28px;
 }
+
+@media (min-width: 660px) {
+  .markets-list {
+    margin-bottom: 40px;
+  }
+}

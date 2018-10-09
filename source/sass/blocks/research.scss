@@ -1,0 +1,21 @@
+.research {
+    display: none;
+}
+
+@media (min-width: 660px) {
+    .research {
+        display: block;
+        padding-left: 322px;
+        min-height: 356px;
+        background-image: url("../img/icon-timer.svg");
+        background-repeat: no-repeat;
+        text-align: left;
+
+        &__conclusion {
+            font-size: 30px;
+            line-height: 36px;
+            color: rgb(0, 0, 0);
+            padding-right: 130px;
+        }
+    }
+}

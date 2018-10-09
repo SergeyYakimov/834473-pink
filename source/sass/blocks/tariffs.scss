@@ -1,5 +1,13 @@
 .tariffs {
   background-color: rgb(242, 242, 242);
+ 
+  &__item:nth-of-type(1) {
+    display: none;
+  }
+
+  &__item:last-of-type {
+    display: none;
+  }
 
   &__name {
     font-size: 18px;
@@ -7,8 +15,9 @@
     font-weight: bold;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-    background-color: rgb(40, 54, 69);
     text-align: center;
+    background-color: rgb(40, 54, 69);
+    border: 2px solid rgb(40, 54, 69);
   }
 
   &__price {
@@ -16,5 +25,47 @@
     font-size: 24px;
     line-height: 30px;
     color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 660px) {
+  .tariffs {
+    padding-bottom: 70px;
+    
+    &__toggles {
+      display: none;
+    }
+
+    &__item:nth-of-type(1) {
+      display: block;
+    }
+  
+    &__item:last-of-type {
+      display: block;
+    }
+
+    &__item {
+      width: 152px;
+      margin-right: 2px;
+    }
+    
+    &__list {
+      display: flex;
+    }
+
+    &__name {
+      font-size: 16px;
+    }
+
+    &__price {
+      font-size: 18px;
+    }
+
+    &__list-characteristics {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      width: 153px;
+    }
   }
 }

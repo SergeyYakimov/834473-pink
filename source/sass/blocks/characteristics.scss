@@ -24,3 +24,11 @@
     margin-right: 24px;
   }
 }
+
+@media (min-width: 660px) {
+  .characteristics {
+    &__index {
+      display: none;
+    }
+  }
+}

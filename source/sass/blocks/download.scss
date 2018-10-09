@@ -8,4 +8,36 @@
     color: rgb(255, 255, 255);
     text-align: center;
   }
+
+  &__slogan {
+    display: none;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 660px) {
+  .download {
+    position: absolute;
+    width: 300px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    background-color: transparent;
+               
+    &__slogan {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      order: -1;
+      margin-bottom: 40px;
+      flex-basis: 126px;
+      text-align: center;
+      padding-left: 58px;
+      padding-right: 56px;
+    }
+  }
 }

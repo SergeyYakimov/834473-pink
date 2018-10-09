@@ -24,3 +24,18 @@
     color: rgb(210, 40, 86);
   }
 }
+
+@media (min-width: 660px) {
+  .contacts {
+    &__text {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

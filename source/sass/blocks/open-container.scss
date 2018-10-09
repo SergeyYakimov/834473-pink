@@ -26,3 +26,9 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (min-width: 660px) {
+  .open-container {
+    justify-content: space-between;
+  }
+}
