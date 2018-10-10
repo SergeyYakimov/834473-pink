@@ -9,11 +9,35 @@
     flex-direction: column;
   }
 
+  &__legend {
+    display: none;
+  }
+
   &__label {
     font-size: 14px;
     line-height: 30px;
     color: rgb(210, 40, 86);
     text-transform: uppercase;
     padding-left: 23px;
+  }
+}
+
+@media (min-width: 660px) {
+  .contacts-participant {
+    order: 2;
+    margin-bottom: 60px;
+    padding-left: 40px;
+
+    &__legend {
+      display: block;
+      text-align: center;
+      line-height: 30px;
+      color: rgb(210, 40, 86);
+      text-transform: uppercase;
+    }
+
+    &__item {
+      flex-direction: column-reverse;
+    }
   }
 }

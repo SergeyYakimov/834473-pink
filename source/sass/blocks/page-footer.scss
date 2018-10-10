@@ -33,8 +33,20 @@
     padding-top: 53px;
 
     &__wrapper {
-    padding-left: 47px;
-    padding-right: 31px;
+      padding-left: 47px;
+      padding-right: 31px;
+
+      &--photo {
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      &--form {
+        padding: 0;
+        flex-direction: row;
+        justify-content: space-between;
+      }
     }
 
     &__bottom {

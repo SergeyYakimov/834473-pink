@@ -8,3 +8,11 @@
     color: rgb(210, 40, 86);
   }
 }
+
+@media (min-width: 660px) {
+  .warning {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+}

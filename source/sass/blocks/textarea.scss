@@ -13,3 +13,10 @@
     line-height: 30px;
   }
 }
+
+@media (min-width: 660px) {
+  .textarea {
+    width: 496px;
+    height: 189px;
+  }
+}

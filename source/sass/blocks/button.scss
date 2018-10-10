@@ -87,3 +87,12 @@
     }
   }
 }
+
+@media (min-width: 660px) {
+  .button {
+    &--submit {
+      order: 5;
+      width: 296px;
+    }
+  }
+}
