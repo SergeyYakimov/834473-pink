@@ -3,7 +3,6 @@
     &__wrapper {
       padding: 0;
       margin: 0;
-      background-color: rgb(0, 128, 0);
       background-image: url("../img/iphone-hand-tablet@1x.png"), url("../img/bg-back-tablet@1x.jpg");
       background-position: 50% 100%, 50% 50%;
       background-repeat: no-repeat;
@@ -17,6 +16,18 @@
       &--form {
         background-image: url("../img/bg-back-tablet@1x.jpg");
       }
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .page-header {
+    background-image: url("../img/iphone-hand-desktop@1x.png"), url("../img/bg-back-desktop@1x.jpg");
+    background-position: 0% 100%, 50% 50%;
+    background-repeat: no-repeat;
+
+    &__wrapper {
+      background-image: none;
     }
   }
 }

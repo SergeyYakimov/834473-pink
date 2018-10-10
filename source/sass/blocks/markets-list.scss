@@ -4,11 +4,22 @@
   padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 28px;
+
+  &__item {
+    margin-right: 15px;
+  }
 }
 
 @media (min-width: 660px) {
   .markets-list {
     margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 960px) {
+  .markets-list {
+    margin-bottom: 60px;
   }
 }

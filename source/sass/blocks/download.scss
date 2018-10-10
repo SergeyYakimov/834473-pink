@@ -27,7 +27,7 @@
     flex-direction: column;
     padding-bottom: 0;
     background-color: transparent;
-               
+
     &__slogan {
       display: flex;
       padding: 0;
@@ -38,6 +38,18 @@
       text-align: center;
       padding-left: 58px;
       padding-right: 56px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .download {
+    top: 60px;
+
+    &__slogan {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 61px;
     }
   }
 }

@@ -1,6 +1,6 @@
 .tariffs {
   background-color: rgb(242, 242, 242);
- 
+
   &__item:nth-of-type(1) {
     display: none;
   }
@@ -31,7 +31,7 @@
 @media (min-width: 660px) {
   .tariffs {
     padding-bottom: 70px;
-    
+
     &__toggles {
       display: none;
     }
@@ -39,7 +39,7 @@
     &__item:nth-of-type(1) {
       display: block;
     }
-  
+
     &__item:last-of-type {
       display: block;
     }
@@ -48,7 +48,7 @@
       width: 152px;
       margin-right: 2px;
     }
-    
+
     &__list {
       display: flex;
     }
@@ -66,6 +66,20 @@
       flex-direction: column;
       justify-content: flex-end;
       width: 153px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .tariffs {
+    &__item {
+      width: 233px;
+    }
+
+    &__list-characteristics {
+      width: 233px;
+      font-size: 18px;
+      line-height: 30px;
     }
   }
 }

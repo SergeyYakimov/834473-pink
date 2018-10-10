@@ -96,3 +96,11 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .button {
+    &--download {
+      margin-bottom: 70px;
+    }
+  }
+}

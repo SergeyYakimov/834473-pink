@@ -32,3 +32,9 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 960px) {
+  .open-container {
+    display: none;
+  }
+}

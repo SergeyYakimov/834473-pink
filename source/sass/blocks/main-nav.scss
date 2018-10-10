@@ -1,3 +1,10 @@
 .main-nav {
   background-color: rgb(40, 54, 69);
 }
+
+@media (min-width: 960px) {
+  .main-nav {
+    display: flex;
+    background-color: transparent;
+  }
+}

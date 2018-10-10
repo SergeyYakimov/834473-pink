@@ -31,3 +31,11 @@
     justify-content: space-between;
   }
 }
+
+@media (min-width: 960px) {
+  .close-container {
+    &__close {
+      display: none;
+    }
+  }
+}
