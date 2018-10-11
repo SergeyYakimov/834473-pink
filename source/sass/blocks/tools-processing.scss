@@ -10,3 +10,17 @@
     justify-content: space-around;
   }
 }
+
+@media (min-width: 660px) {
+  .tools-processing {
+    &__list {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .tools-processing {
+    margin-bottom: 146px;
+  }
+}

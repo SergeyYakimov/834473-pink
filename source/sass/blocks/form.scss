@@ -1,7 +1,28 @@
 .form {
   margin-bottom: 46px;
+  background-color: rgb(255, 255, 255);
 
   &__item {
     border: none;
+  }
+}
+
+@media (min-width: 660px) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &__item {
+      margin-bottom: 60px;
+      border: 2px solid rgb(229, 229, 229);
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .form {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

@@ -1,0 +1,17 @@
+.scientific-information {
+  &__text {
+    padding-right: 10px;
+  }
+
+  &__link {
+    color: rgb(210, 40, 86);
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 960px) {
+  .scientific-information {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

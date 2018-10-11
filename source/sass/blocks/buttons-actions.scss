@@ -4,3 +4,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (min-width: 960px) {
+  .buttons-actions {
+    flex-direction: row;
+  }
+}

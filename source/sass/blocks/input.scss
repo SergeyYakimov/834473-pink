@@ -20,3 +20,31 @@
     border: 2px solid rgb(210, 40, 86);
   }
 }
+
+@media (min-width: 660px) {
+  .input {
+    flex-grow: 1;
+
+    &[type="tel"] {
+      width: 496px;
+    }
+
+    &[type="email"] {
+      width: 496px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .input {
+    flex-grow: 0;
+
+    &[type="tel"] {
+      width: 365px;
+    }
+
+    &[type="email"] {
+      width: 365px;
+    }
+  }
+}

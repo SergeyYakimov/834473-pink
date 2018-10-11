@@ -1,11 +1,25 @@
 .title {
   width: 280px;
   height: 462px;
+  padding: 0;
+  margin: 0;
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
 
   &--index {
     background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
     background-position: left bottom, left top;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 660px) {
+  .title {
+    width: 620px;
+    background-image: none;
+
+    &--index {
+      background-image: none;
+    }
   }
 }

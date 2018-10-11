@@ -42,6 +42,7 @@
             </ul>
           </div>
         </nav>
+        <div class="page-header__wrapper page-header__wrapper--photo">
         <div class="page-header__container title">
           <div class="title__open-container open-container">
             <a class="open-container__logo" href="index.html">
@@ -56,8 +57,9 @@
             </a>
             <button class="open-container__open" type="button">Открыть меню</button>
           </div>
-        <h1 class="page-title">Фотографии пользователей</h1>
+        <h1 class="page-title page-title--photo">Фотографии пользователей</h1>
       </div>
+    </div>
     </header>
     <main class="page-main">
       <div class="photo-lead">
@@ -66,14 +68,14 @@
       <section class="user-photos">
         <h2 class="visually-hidden">Фотографии пользователей приложения</h2>
         <ul class="user-photos__list">
-          <li class="user-photos__item">
+          <li class="user-photos__item user-photos__item--main-photo">
             <div class="top">Панорама дня</div>
             <div class="img-wrapper">
               <a href="#">
                 <img src="img/panorama-mobile@1x.jpg" width="320" height="137" alt="Фотография пользователя Анны">
               </a>
             </div>
-            <div class="photo-description">
+            <div class="photo-description photo-description--main-photo">
               <p class="photo-description__text">
                 <span class="photo-description__author">Анна</span>
                 <span class="photo-description__time">(5 минут назад)</span><br>
@@ -186,53 +188,57 @@
       <section class="sending-photo">
         <h2 class="visually-hidden">Отправка фотографий</h2>
         <p class="sending-photo__slogan">Затмите их всех!<br>Выкладывайте все, что накопилось в телефоне!</p>
-        <div class="sending-photo__sample-image" >
-          <a href="#">
-            <img src="img/photo-road-mobile@1x.jpg" width="280" height="374" alt="Образец фотографии">
-          </a>
-        </div>
-        <div class="tools-processing">
-          <ul class="tools-processing__list">
-            <li class="tools-processing__item tools-processing__item--active tools">
-              <span class="visually-hidden">Обрезка фотографии</span>
-              <button class="tools__button tools__button--cut">Обрезать фотографию</button>
-              <div class="range-controls range-controls--active">
-                <div class="scale">
-                </div>
-                <div class="toggle">
-                </div>
-              </div>
-            </li>
-            <li class="tools-processing__item">
-              <span class="visually-hidden">Заполнение фотографии</span>
-              <button class="tools__button tools__button--fill">Заполнить фотографию</button>
-              <div class="range-controls">
-                <div class="scale">
-                </div>
-                <div class="toggle">
-                </div>
-              </div>
-            </li>
-            <li class="tools-processing__item">
-              <span class="visually-hidden">Контрастность фотографии</span>
-              <button class="tools__button tools__button--contrast">Изменить контрастнотть фотографии</button>
-              <div class="range-controls">
-                <div class="scale">
-                </div>
-                <div class="toggle">
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div class="buttons-actions">
-          <a class="button buttons-actions__item button--active" href="#">Запостить</a>
-          <button class="button buttons-actions__item button--inactive">Отмена</button>
+        <div class="sending-photo__wrapper">
+          <div class="sending-photo__sample-image" >
+            <a href="#">
+              <img src="img/photo-road-mobile@1x.jpg" width="280" height="374" alt="Образец фотографии">
+            </a>
+          </div>
+          <div class="sending-photo__tools-container">
+            <div class="tools-processing">
+              <ul class="tools-processing__list">
+                <li class="tools-processing__item tools-processing__item--active tools">
+                  <span class="visually-hidden">Обрезка фотографии</span>
+                  <button class="tools__button tools__button--cut">Обрезать фотографию</button>
+                  <div class="range-controls range-controls--active">
+                    <div class="scale">
+                    </div>
+                    <div class="toggle">
+                    </div>
+                  </div>
+                </li>
+                <li class="tools-processing__item">
+                  <span class="visually-hidden">Заполнение фотографии</span>
+                  <button class="tools__button tools__button--fill">Заполнить фотографию</button>
+                  <div class="range-controls">
+                    <div class="scale">
+                    </div>
+                    <div class="toggle">
+                    </div>
+                  </div>
+                </li>
+                <li class="tools-processing__item">
+                  <span class="visually-hidden">Контрастность фотографии</span>
+                  <button class="tools__button tools__button--contrast">Изменить контрастнотть фотографии</button>
+                  <div class="range-controls">
+                    <div class="scale">
+                    </div>
+                    <div class="toggle">
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="buttons-actions">
+              <a class="button buttons-actions__item button--active" href="#">Запостить</a>
+              <button class="button buttons-actions__item button--inactive">Отмена</button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer class="page-footer">
-      <div class="page-footer__wrapper">
+      <div class="page-footer__wrapper page-footer__wrapper--photo">
         <a class="page-footer__logo" href="index.html">
             <span class="visually-hidden">Приложение «Pink»</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="146.3px" height="40.375px" viewBox="0 0 146.3 40.375" enable-background="new 0 0 146.3 40.375" xml:space="preserve">
               <g>

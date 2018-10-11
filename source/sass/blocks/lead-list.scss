@@ -12,3 +12,33 @@
     text-align: center;
   }
 }
+
+@media (min-width: 660px) {
+  .lead-list {
+    margin-top: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 40px;
+
+    &__item {
+      margin-bottom: 15px;
+      text-align: auto;
+
+      &:nth-child(2) {
+        text-align: center;
+        padding-left: 125px;
+        padding-right: 125px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .lead-list {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}

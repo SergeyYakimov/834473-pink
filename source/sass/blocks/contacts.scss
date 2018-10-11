@@ -24,3 +24,56 @@
     color: rgb(210, 40, 86);
   }
 }
+
+@media (min-width: 660px) {
+  .contacts {
+    &__text {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__address {
+      flex-grow: 1;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .contacts {
+    padding: 0;
+
+    &__wrapper {
+      justify-content: flex-start;
+      padding-left: 40px;
+      padding-right: 15px;
+    }
+
+    &__text {
+      font-size: 50px;
+      line-height: 50px;
+      padding-left: 200px;
+      padding-right: 200px;
+      margin-bottom: 70px;
+    }
+
+    &__phone {
+      margin-right: 135px;
+    }
+
+    &__address {
+      order: 2;
+      margin-right: 65px;
+    }
+
+    &__mail {
+      order: 3;
+    }
+  }
+}

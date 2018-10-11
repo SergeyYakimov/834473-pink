@@ -1,5 +1,7 @@
 .copyright {
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
 
   &__text {
     line-height: 18px;
@@ -16,6 +18,14 @@
 
     &:active {
       opacity: 0.3;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .copyright {
+    &__text {
+      font-size: 18px;
     }
   }
 }

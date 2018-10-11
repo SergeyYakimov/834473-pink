@@ -7,4 +7,24 @@
   &__sign {
     color: rgb(210, 40, 86);
   }
+
+  &__full {
+    display: none;
+  }
+}
+
+@media (min-width: 660px) {
+  .warning {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+@media (min-width: 960px) {
+  .warning {
+    &__full {
+      display: inline;
+    }
+  }
 }

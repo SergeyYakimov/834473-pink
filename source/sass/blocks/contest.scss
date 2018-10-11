@@ -6,5 +6,44 @@
     padding-bottom: 47px;
     margin-top: -270px;
     background-color: rgb(255, 255, 255);
+
+    &--offer {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 660px) {
+  .contest {
+    position: relative;
+
+    &__description {
+      font-size: 18px;
+      padding-top: 100px;
+      padding-bottom: 76px;
+      padding-left: 67px;
+      padding-right: 66px;
+      position: relative;
+      z-index: 2;
+      margin-top: -350px;
+
+      &--offer {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .contest {
+    &__description {
+      margin-top: -520px;
+      padding-left: 90px;
+      padding-right: 90px;
+
+      &--offer {
+        display: inline-block;
+      }
+    }
   }
 }

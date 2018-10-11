@@ -12,3 +12,25 @@
     margin-bottom: 42px;
   }
 }
+
+@media (min-width: 660px) {
+  .sending-photo {
+    &__slogan {
+      font-size: 18px;
+      padding-bottom: 72px;
+    }
+
+    &__wrapper {
+      display: flex;
+    }
+
+    &__tools-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__sample-image {
+      margin-right: 47px;
+    }
+  }
+}

@@ -13,3 +13,17 @@
     line-height: 30px;
   }
 }
+
+@media (min-width: 660px) {
+  .textarea {
+    width: 496px;
+    height: 189px;
+  }
+}
+
+@media (min-width: 960px) {
+  .textarea {
+    width: 816px;
+    height: 124px;
+  }
+}

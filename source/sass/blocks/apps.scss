@@ -11,3 +11,11 @@
     margin-bottom: 30px;
   }
 }
+
+@media (min-width: 660px) {
+  .apps {
+    order: 1;
+    background-color: rgb(255, 255, 255);
+    padding-left: 40px;
+  }
+}

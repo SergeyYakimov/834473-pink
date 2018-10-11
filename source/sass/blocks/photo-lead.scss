@@ -9,3 +9,22 @@
   background-color: rgb(255, 255, 255);
   margin-top: -270px;
 }
+
+@media (min-width: 660px) {
+  .photo-lead {
+    position: relative;
+    z-index: 2;
+    margin-top: -350px;
+    font-size: 18px;
+    padding-left: 93px;
+    padding-right: 91px;
+  }
+}
+
+@media (min-width: 960px) {
+  .photo-lead {
+    margin-top: -520px;
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+}

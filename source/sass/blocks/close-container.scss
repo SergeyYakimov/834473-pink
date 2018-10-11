@@ -25,3 +25,17 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (min-width: 660px) {
+  .close-container {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 960px) {
+  .close-container {
+    &__close {
+      display: none;
+    }
+  }
+}

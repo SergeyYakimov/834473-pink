@@ -26,3 +26,22 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .site-list {
+    display: flex;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: none;
+
+    &__item {
+      margin-right: 82px;
+      box-shadow: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

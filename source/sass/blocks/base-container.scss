@@ -3,3 +3,16 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+@media (min-width: 660px) {
+  .base-container {
+    width: 620px;
+  }
+}
+
+@media (min-width: 960px) {
+  .base-container {
+    width: 940px;
+    padding: 0 10px;
+  }
+}

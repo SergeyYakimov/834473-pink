@@ -21,3 +21,46 @@
     margin-bottom: 40px;
   }
 }
+
+@media (min-width: 660px) {
+  .advantages {
+    background-image: url("../img/iphone-screen-3-tablet@1x.png");
+    background-position: left top;
+    text-align: left;
+    padding-bottom: 0;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      padding-left: 310px;
+    }
+
+    &__item {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .advantages {
+    padding-top: 360px;
+    background-image: url("../img/iphone-screen-1-desktop@1x.png"), url("../img/iphone-screen-2-desktop@1x.png"), url("../img/iphone-screen-3-desktop@1x.png");
+    background-repeat: no-repeat;
+    background-position: left top, center top, right top;
+
+    &__list {
+      flex-direction: row;
+      padding-left: 0;
+    }
+
+    &__item {
+      margin-right: 92px;
+      text-align: center;
+      width: 230px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

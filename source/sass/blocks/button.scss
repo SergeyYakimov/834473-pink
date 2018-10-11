@@ -87,3 +87,28 @@
     }
   }
 }
+
+@media (min-width: 660px) {
+  .button {
+    &--submit {
+      order: 5;
+      width: 296px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .button {
+    &--active {
+      margin-right: 44px;
+    }
+
+    &--download {
+      margin-bottom: 70px;
+    }
+
+    &--shut {
+      width: 456px;
+    }
+  }
+}
