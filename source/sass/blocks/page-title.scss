@@ -12,3 +12,17 @@
     padding-top: 65px;
   }
 }
+
+@media (min-width: 960px) {
+  .page-title {
+    &--form {
+      padding-top: 45px;
+      width: 820px;
+      padding-left: 50px;
+    }
+
+    &--photo {
+      margin-left: 250px;
+    }
+  }
+}

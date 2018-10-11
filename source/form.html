@@ -57,7 +57,7 @@
           </a>
           <button class="open-container__open" type="button">Открыть меню</button>
         </div>
-        <h1 class="page-title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        <h1 class="page-title page-title--form">Конкурс на самое безбашенное путешествие с Пинк</h1>
       </div>
       </div>
     </header>
@@ -71,15 +71,15 @@
           <fieldset class="form__item fio">
             <p class="fio__item">
               <label class="fio__label" for="participation-surname">Фамилия:</label>
-              <input class="input" id="participation-surname" type="text" name="surname" value="" placeholder="Укажите фамилию *" required>
+              <input class="input fio__input" id="participation-surname" type="text" name="surname" value="" placeholder="Укажите фамилию *" required>
             </p>
             <p class="fio__item">
               <label class="fio__label" for="participation-name">Имя:</label>
-              <input class="input" id="participation-name" type="text" name="name" value="" placeholder="Введите ваше имя *" required>
+              <input class="input fio__input" id="participation-name" type="text" name="name" value="" placeholder="Введите ваше имя *" required>
             </p>
             <p class="fio__item">
               <label class="fio__label" for="participation-patronymic">Отчество:</label>
-              <input class="input" id="participation-patronymic" type="text" name="patronymic" value="" placeholder="Ну и отчество тоже">
+              <input class="input fio__input" id="participation-patronymic" type="text" name="patronymic" value="" placeholder="Ну и отчество тоже">
             </p>
           </fieldset>
           <fieldset class="form__item form-achievements">
@@ -113,14 +113,16 @@
           </fieldset>
           <fieldset class="form__item contacts-participant">
             <legend class="contacts-participant__legend">Контактная информация</legend>
-            <p class="contacts-participant__item">
-              <label class="contacts-participant__label" for="contacts-phone">Номер телефона</label>
-              <input class="input" id="contacts-phone" type="tel" name="phone" value="" placeholder="Номер, пожалуйста">
-            </p>
-            <p class="contacts-participant__item">
-              <label class="contacts-participant__label" for="contacts-email">Адрес почты</label>
-              <input class="input" id="contacts-email" type="email" name="e-mail" value="" placeholder="Введите почту *" required>
-            </p>
+            <div class="contacts-participant__wrapper">
+              <p class="contacts-participant__item">
+                <label class="contacts-participant__label" for="contacts-phone">Номер телефона</label>
+                <input class="input contacts-participant__input" id="contacts-phone" type="tel" name="phone" value="" placeholder="Номер, пожалуйста">
+              </p>
+              <p class="contacts-participant__item">
+                <label class="contacts-participant__label" for="contacts-email">Адрес почты</label>
+                <input class="input contacts-participant__input" id="contacts-email" type="email" name="e-mail" value="" placeholder="Введите почту *" required>
+              </p>
+            </div>
           </fieldset>
           <fieldset class="form__item apps">
             <legend class="apps__legend">С каким приложением путешествовали?</legend>
@@ -148,7 +150,7 @@
           <button class="button button--submit" type="submit">Отправить форму</button>
         </form>
         <div class="contest__indication warning">
-            <span class="warning__sign">*</span> — обязательные поля
+            <span class="warning__sign">*</span> — обязательные <span class="warning__full">для заполнения</span> поля
         </div>
       </section>
     </main>
@@ -198,14 +200,16 @@
     <section class="popup popup--warning">
       <h2 class="visually-hidden">Предупреждение об ошибке</h2>
       <div class="popup__indication popup--warning__indication">Что-то пошло не так!</div>
-      <div class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</div>
-      <button class="button button--ok" type="button">Ok</button>
+      <div class="popup__text popup--warning__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</div>
+      <div class="popup__button popup__button--warning">
+        <button class="button button--ok" type="button">Ok</button>
+      </div>
     </section>
     <section class="popup popup--confirmation">
       <h2 class="visually-hidden">Подтверждение отправки формы</h2>
-      <div class="popup__indication">Ваша заявка отправлена</div>
-      <div class="popup__text">Cпасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</div>
-      <div class="popup__button">
+      <div class="popup__indication popup--confirmation__indication">Ваша заявка отправлена</div>
+      <div class="popup__text popup--confirmation__text">Cпасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</div>
+      <div class="popup__button popup__button--confirmation">
         <button class="button button--shut" type="button">Закрыть окно</button>
       </div>
     </section>

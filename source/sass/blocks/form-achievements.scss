@@ -21,3 +21,9 @@
     padding-left: 40px;
   }
 }
+
+@media (min-width: 960px) {
+  .form-achievements {
+    flex-grow: 1;
+  }
+}

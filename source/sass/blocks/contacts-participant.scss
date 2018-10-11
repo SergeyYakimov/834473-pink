@@ -41,3 +41,21 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .contacts-participant {
+    flex-grow: 1;
+
+    &__wrapper {
+      display: flex;
+    }
+
+    &__item {
+      width: 370px;
+
+      &:first-child {
+        margin-right: 74px;
+      }
+    }
+  }
+}

@@ -17,9 +17,11 @@
   }
 
   &__button {
-    background-color: rgb(242, 242, 242);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    &--confirmation {
+      background-color: rgb(242, 242, 242);
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
   }
 }
 
@@ -47,9 +49,57 @@
     }
 
     &__button {
-      margin-left: -76px;
-      margin-right: -76px;
-      padding: 50px 96px;
+      &--confirmation {
+        margin-left: -76px;
+        margin-right: -76px;
+        padding: 50px 96px;
+      }
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .popup {
+    width: 470px;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-bottom: 0;
+
+    &--warning {
+      &__text {
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+    }
+
+    &--confirmation {
+      &__text {
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+
+    &__button {
+      &--warning {
+        background-color: rgb(242, 242, 242);
+        margin-left: -155px;
+        margin-right: -155px;
+        margin-bottom: 0;
+        padding-top: 50px;
+        padding-bottom: 55px;
+        padding-left: 240px;
+        padding-right: 240px;
+      }
+
+      &--confirmation {
+        margin-left: -155px;
+        margin-right: -155px;
+        margin-bottom: 0;
+        padding-top: 50px;
+        padding-bottom: 54px;
+        padding-left: 160px;
+        padding-right: 160px;
+      }
     }
   }
 }

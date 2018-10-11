@@ -34,3 +34,17 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .input {
+    flex-grow: 0;
+
+    &[type="tel"] {
+      width: 365px;
+    }
+
+    &[type="email"] {
+      width: 365px;
+    }
+  }
+}

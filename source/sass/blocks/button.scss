@@ -99,8 +99,16 @@
 
 @media (min-width: 960px) {
   .button {
+    &--active {
+      margin-right: 44px;
+    }
+
     &--download {
       margin-bottom: 70px;
+    }
+
+    &--shut {
+      width: 456px;
     }
   }
 }

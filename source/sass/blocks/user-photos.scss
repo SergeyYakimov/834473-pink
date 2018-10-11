@@ -49,3 +49,29 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .user-photos {
+    &__item {
+      height: 555px;
+      margin-bottom: 54px;
+
+      &:nth-child(2n + 1) {
+        margin-right: 20px;
+      }
+
+      &:nth-child(1) {
+        margin-right: 0;
+      }
+
+      &:nth-child(3n + 4) {
+        margin-right: 0;
+      }
+
+      &--main-photo {
+        width: 940px;
+        height: 600px;
+      }
+    }
+  }
+}

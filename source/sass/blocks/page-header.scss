@@ -28,6 +28,14 @@
 
     &__wrapper {
       background-image: none;
+
+      &--photo {
+        background-image: url("../img/bg-back-desktop@1x.jpg");
+      }
+
+      &--form {
+        background-image: url("../img/bg-back-desktop@1x.jpg");
+      }
     }
   }
 }
