@@ -1,4 +1,19 @@
 .contacts {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 320px;
+    height: 258px;
+    left: -20px;
+    background-image: url("../img/bg-triangle-white-footer.svg");
+    background-repeat: no-repeat;
+    background-size: 320px auto;
+  }
+
   &__text {
     margin-bottom: 40px;
     font-size: 24px;
@@ -27,6 +42,14 @@
 
 @media (min-width: 660px) {
   .contacts {
+    &::after {
+      width: 660px;
+      left: -50px;
+      top: 310px;
+
+      background-size: 660px auto;
+    }
+
     &__text {
       font-size: 40px;
       line-height: 40px;
@@ -48,6 +71,13 @@
 @media (min-width: 960px) {
   .contacts {
     padding: 0;
+
+    &::after {
+      left: -120px;
+      top: 275px;
+      width: 1200px;
+      background-size: 1200px auto;
+    }
 
     &__wrapper {
       justify-content: flex-start;

@@ -11,6 +11,11 @@
   margin-bottom: 50px;
   text-align: center;
 
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/iphone-screen-mobile@2x.png");
+    background-size: 157px auto;
+  }
+
   &__list {
     list-style: none;
     margin: 0;
@@ -24,10 +29,26 @@
 
 @media (min-width: 660px) {
   .advantages {
-    background-image: url("../img/iphone-screen-3-tablet@1x.png");
-    background-position: left top;
     text-align: left;
     padding-bottom: 0;
+    background-image: none;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url("../img/iphone-screen-3-tablet@1x.png");
+      background-position: left top;
+      background-repeat: no-repeat;
+      z-index: 3;
+      top: -20px;
+      width: 268px;
+      height: 481px;
+
+      @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        background-image: url("../img/iphone-screen-3-tablet@2x.png");
+        background-size: 268px auto;
+      }
+    }
 
     &__list {
       display: flex;
@@ -44,9 +65,21 @@
 @media (min-width: 960px) {
   .advantages {
     padding-top: 360px;
-    background-image: url("../img/iphone-screen-1-desktop@1x.png"), url("../img/iphone-screen-2-desktop@1x.png"), url("../img/iphone-screen-3-desktop@1x.png");
-    background-repeat: no-repeat;
-    background-position: left top, center top, right top;
+    background-image: none;
+
+    &::before {
+      background-image: url("../img/iphone-screen-1-desktop@1x.png"), url("../img/iphone-screen-2-desktop@1x.png"), url("../img/iphone-screen-3-desktop@1x.png");
+      background-repeat: no-repeat;
+      background-position: left top, center top, right top;
+      width: 940px;
+      height: 302px;
+      left: 0;
+
+      @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        background-image: url("../img/iphone-screen-1-desktop@2x.png"), url("../img/iphone-screen-2-desktop@2x.png"), url("../img/iphone-screen-3-desktop@2x.png");
+        background-size: 292px auto;
+      }
+    }
 
     &__list {
       flex-direction: row;

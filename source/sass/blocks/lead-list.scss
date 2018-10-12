@@ -7,6 +7,18 @@
   padding-right: 35px;
   position: relative;
 
+  &::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 392px;
+    z-index: 2;
+    left: -2px;
+    background-image: url("../img/bg-triangle-white.svg");
+    background-repeat: no-repeat;
+    background-size: 320px auto;
+  }
+
   &__item {
     margin-bottom: 35px;
     text-align: center;
@@ -21,6 +33,11 @@
     font-size: 40px;
     font-weight: lighter;
     line-height: 40px;
+
+    &::after {
+      width: 620px;
+      background-size: 620px auto;
+    }
 
     &__item {
       margin-bottom: 15px;
@@ -40,5 +57,11 @@
   .lead-list {
     font-size: 50px;
     line-height: 50px;
+
+    &::after {
+      width: 940px;
+      left: 0;
+      background-size: 940px auto;
+    }
   }
 }

@@ -1,4 +1,16 @@
 .reviews {
+  &::after {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 392px;
+    z-index: 2;
+    left: -2px;
+    background-image: url("../img/bg-triangle-white.svg");
+    background-repeat: no-repeat;
+    background-size: 320px auto;
+  }
+
   &__item {
     margin: 0;
     padding: 0;
@@ -38,6 +50,11 @@
 
 @media (min-width: 660px) {
   .reviews {
+    &::after {
+      width: 620px;
+      background-size: 620px auto;
+    }
+
     &__author {
       margin-bottom: 0;
       display: flex;
@@ -65,6 +82,12 @@
 
 @media (min-width: 960px) {
   .reviews {
+    &::after {
+      width: 940px;
+      left: 0;
+      background-size: 940px auto;
+    }
+
     &__author-name {
       font-size: 24px;
     }

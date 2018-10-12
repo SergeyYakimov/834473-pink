@@ -1,0 +1,13 @@
+.slider {
+  &__item {
+    display: none;
+
+    &:first-child {
+      display: block;
+    }
+  }
+
+  &__toggles {
+    position: relative;
+  }
+}
