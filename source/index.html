@@ -44,7 +44,7 @@
       </nav>
       <div class="page-header__wrapper">
         <div class="page-header__container title title--index">
-          <div class="title__open-container open-container">
+          <div class="title__open-container open-container open-container--index">
             <a class="open-container__logo" href="index.html">
               <span class="visually-hidden">Приложение «Pink»</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="74.426px" height="22.859px" viewBox="0 0 74.426 22.859" enable-background="new 0 0 74.426 22.859" xml:space="preserve">
                 <g>
@@ -163,12 +163,21 @@
         </div>
       </section>
       <section class="tariffs">
-        <div class="tariffs__wrapper slider">
+        <div class="tariffs__wrapper carousel">
           <h2 class="visually-hidden">Тарифы приложения</h2>
-          <p class="hit">Хит</p>
-          </div>
-          <div class="tariffs__list slider__list">
-            <div class="tariffs__list-characteristics">
+          <div class="tariffs__toggles carousel__toggles">
+            <input class="visually-hidden carousel__toggles--1" type="radio" id="tariff-1" name="toggle">
+            <input class="visually-hidden carousel__toggles--2" type="radio" id="tariff-2" name="toggle" checked>
+            <input class="visually-hidden carousel__toggles--3" type="radio" id="tariff-3" name="toggle">
+            <div class="carousel__controls carousel-controls">
+              <label class="carousel-controls__item carousel-controls-item--1" for="tariff-1">Первый</label>
+              <label class="carousel-controls__item carousel-controls-item--2" for="tariff-2">Второй</label>
+              <label class="carousel-controls__item carousel-controls-item--3" for="tarrif-3">Третий</label>
+            </div>
+          </div>  
+          <p class="hit">хит</p>
+          <div class="tariffs__list carousel__list">
+            <div class="tariffs__list-characteristics list-characteristics">
                 <div class="list-characteristics__index">
                   Розовый фильтр
                 </div>
@@ -179,7 +188,7 @@
                   Комментарии
                 </div>
             </div>
-            <div class="tariffs__item slider-item">
+            <div class="tariffs__item carousel__item carousel__item--base">
                 <div class="tariffs__name">База<br>
                   <span class="tariffs__price">1,99 USD</span>
                 </div>
@@ -208,7 +217,7 @@
                   </div>
                 </div>
               </div>
-            <div class="tariffs__item slider-item">
+            <div class="tariffs__item carousel__item carousel__item--standard">
               <div class="tariffs__name">Стандарт<br>
                 <span class="tariffs__price">3,99 USD</span>
               </div>
@@ -237,7 +246,7 @@
                 </div>
               </div>
             </div>
-              <div class="tariffs__item slider-item">
+              <div class="tariffs__item carousel__item carousel__item--no-limit">
                 <div class="tariffs__name">Анлим<br>
                   <span class="tariffs__price">9,99 USD</span>
                 </div>
@@ -266,13 +275,9 @@
                   </div>
                 </div>
               </div>
+            </div>
           </div>
-          <p class="tariffs__toggles slider__toggles">
-            <button class="slider__toggle" type="button">1</button>
-            <button class="slider__toggle" type="button">2</button>
-            <button class="slider__toggle" type="button">3</button>
-          </p>
-      </section>
+        </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
@@ -285,7 +290,7 @@
               </div>
               <div class="contacts__mail">
                 <b>Пишите:</b>
-                <div class="contacts__email">mail@htmlacademy.ru</div>
+                <div class="contacts__email email"><a class="email__link" href="#">mail@htmlacademy.ru</a></div>
               </div>
             <div class="contacts__address">
               <b>Приезжайте в гости:</b>

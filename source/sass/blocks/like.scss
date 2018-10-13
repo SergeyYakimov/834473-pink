@@ -1,4 +1,7 @@
 .like {
+  display: flex;
+  align-items: center;
+
   &__button {
     font-size: 0;
     border: 0;
@@ -7,6 +10,7 @@
     background-image: url("../img/icon-heart.svg");
     background-repeat: no-repeat;
     background-color: transparent;
+    margin-right: 20px;
   }
 
   &__counter {

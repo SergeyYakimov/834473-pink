@@ -1,5 +1,7 @@
 .tariffs {
   background-color: rgb(242, 242, 242);
+  padding-top: 113px;
+  padding-bottom: 103px;
 
   &__item:nth-of-type(1) {
     display: none;
@@ -16,8 +18,10 @@
     text-transform: uppercase;
     color: rgb(255, 255, 255);
     text-align: center;
+    padding-top: 17px;
     background-color: rgb(40, 54, 69);
     border: 2px solid rgb(40, 54, 69);
+    min-height: 77px;
   }
 
   &__price {

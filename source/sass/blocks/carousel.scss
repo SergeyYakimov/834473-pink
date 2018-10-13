@@ -1,0 +1,35 @@
+.carousel {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+
+  &__toggles {
+    position: relative;
+  }
+
+  &__item--base {
+    display: none;
+  }
+
+  &__item--standard {
+    min-width: 280px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 74px;
+      height: 73px;
+      background-image: url("../img/bg-hit.svg");
+      background-size: 74px 73px;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
+
+  &__item--no-limit {
+    display: none;
+  }
+}

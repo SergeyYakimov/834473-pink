@@ -1,4 +1,10 @@
 .reviews {
+  position: relative;
+  margin-top: -80px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  padding-top: 9px;
+
   &::after {
     content: "";
     position: absolute;

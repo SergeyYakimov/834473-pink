@@ -3,6 +3,11 @@
   font-weight: lighter;
   color: rgb(255, 255, 255);
   text-align: center;
+  padding-top: 45px;
+
+  &--photo {
+    margin-top: -10px;
+  }
 }
 
 @media (min-width: 660px) {

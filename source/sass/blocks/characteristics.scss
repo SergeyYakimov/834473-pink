@@ -1,19 +1,26 @@
 .characteristics {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(229, 229, 229);
+  box-sizing: border-box;
+  padding-left: 22px;
+  padding-top: 18px;
+  padding-bottom: 17px;
+  height: 59px;
+  border-top: none;
 
   &__index {
     line-height: 30px;
     text-transform: uppercase;
-    margin-left: 22px;
   }
 
   &__check {
     background-image: url("../img/icon-yes.svg");
     background-repeat: no-repeat;
-    width: 31px;
-    height: 21px;
-    margin-right: 19px;
+    width: 32px;
+    height: 23px;
+    margin-right: 13px;
   }
 
   &__check--no {
