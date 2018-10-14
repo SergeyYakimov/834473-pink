@@ -2,14 +2,49 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-left: 25px;
 
   &__item {
-    margin-bottom: 55px;
+    margin-bottom: 45px;
+  }
+
+  &__radio {
+    display: none;
+
+    &:not(:checked) + .apps-kind__label::before {
+      display: none;
+    }
   }
 
   &__label {
     font-size: 18px;
     line-height: 30px;
     padding-left: 33px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: rgb(210, 40, 86);
+      top: 5px;
+      left: -25px;
+      z-index: 2; 
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 37px;
+      height: 36px;
+      background-color: rgb(255, 255, 255);
+      border-radius: 50%;
+      border: 2px solid rgb(229, 229, 229);
+      box-sizing: border-box;
+      top: -5px;
+      left: -37px;
+    }
   }
 }

@@ -1,5 +1,9 @@
 .page-footer {
-  padding-top: 50px;
+  padding-top: 40px;
+
+  &--form {
+    padding-top: 30px;
+  }
 
   &__wrapper {
     display: flex;
@@ -12,7 +16,7 @@
   }
 
   &__logo {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 
     &:hover path {
       fill: rgb(210, 40, 86);

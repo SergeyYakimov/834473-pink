@@ -2,6 +2,29 @@
   box-shadow: 0 7px 15px 0 rgba(0, 1, 1, 0.15);
   padding-top: 45px;
   padding-bottom: 52px;
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+  display: none;
+
+  &--warning {
+    top: 1425px;
+  }
+
+  &--confirmation {
+    top: 1900px;
+    padding-bottom: 0;
+  }
+
+  &--confirmation__text {
+    padding-left: 5px;
+    padding-right: 5px;
+
+     & div {
+       padding-left: 15px;
+       padding-right: 15px;
+     }
+  } 
 
   &__indication {
     font-weight: bold;

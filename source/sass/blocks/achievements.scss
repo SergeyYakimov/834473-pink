@@ -4,17 +4,41 @@
   padding: 0;
 
   &__item {
-    margin-bottom: 63px;
+    margin-bottom: 53px;
 
     &:last-child {
-      margin-bottom: 50px;
+      margin-bottom: 35px;
     }
   }
 
   &__label {
     font-size: 18px;
     line-height: 30px;
-    padding-left: 33px;
+    padding-left: 60px;
+    position: relative;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: -10px;
+      width: 35px;
+      height: 35px;
+      box-sizing: border-box;
+      background-color: rgb(255, 255, 255);
+      border: 2px solid rgb(229, 229, 229);
+      background-image: url("../img/icon-yes-form.svg");
+      background-repeat: no-repeat;
+      background-position: center; 
+    }
+  }
+ 
+  &__checkbox {
+    display: none;
+
+    &:not(:checked) + .achievements__label::before {
+      background-image: none;
+    }
   }
 }
 
