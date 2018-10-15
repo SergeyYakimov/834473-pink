@@ -13,3 +13,10 @@
   color: rgb(255, 255, 255);
   background-color: rgb(210, 40, 86);
 }
+
+@media (min-width: 660px) {
+  .top {
+    left: 480px;
+    top: 60px;
+  }
+}

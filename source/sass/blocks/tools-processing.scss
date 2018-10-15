@@ -29,6 +29,11 @@
   .tools-processing {
     &__list {
       flex-direction: column;
+      margin-left: 0;
+    }
+
+    &__item {
+      margin-bottom: 30px;
     }
   }
 }

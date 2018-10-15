@@ -33,3 +33,28 @@
     display: none;
   }
 }
+
+@media (min-width: 660px) {
+  .carousel {
+    padding-top: 0;
+    margin-top: -30px;
+
+    &__item--base {
+      display: block;
+    }
+
+    &__item {
+      width: 152px;
+      margin-right: 2px;
+    }
+
+    &__item--standard {
+      min-width: 152px;
+
+      &::after {
+        background-image: url("../img/bg-hit-tablet.svg");
+        background-size: 61px 61px;
+      }
+    }
+  }
+}

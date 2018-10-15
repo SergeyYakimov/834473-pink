@@ -10,3 +10,11 @@
   left: 10px;
   z-index: 3;
 }
+
+@media (min-width: 660px) {
+  .hit {
+    left: 310px;
+    top: 0;
+    z-index: 3;
+  }
+}

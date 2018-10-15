@@ -7,6 +7,14 @@
   }
 }
 
+@media (min-width: 660px) {
+  .pluses {
+    &:last-child {
+      margin-bottom: 30px;
+    }
+  }
+}
+
 @media (min-width: 960px) {
   .pluses {
     &__title {

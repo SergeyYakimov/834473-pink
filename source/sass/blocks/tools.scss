@@ -73,3 +73,36 @@
     }
   }
 }
+
+@media (min-width: 660px) {
+  .tools {
+    &__button {
+      &--cut svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      &--fill svg {
+        width: 24px;
+        height: 22px;
+      }
+
+      &--contrast svg {
+        width: 16px;
+        height: 16px;
+
+        & path {
+          fill: rgba(210, 40, 86, 1);
+        }
+      }
+
+      & path:nth-of-type(2) {
+        fill: rgba(210, 40, 86, 1);
+      }
+
+      & rect {
+        fill: rgba(210, 40, 86, 1);
+      }
+    }
+  }
+}

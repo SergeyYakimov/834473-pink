@@ -6,6 +6,10 @@
   &__logo {
     margin-right: 180px;
 
+    &:nth-child(2) {
+      display: none;
+    }
+
     &:hover path {
       fill: rgb(210, 40, 86);
     }
@@ -29,6 +33,17 @@
 @media (min-width: 660px) {
   .close-container {
     justify-content: space-between;
+    min-height: 70px;
+
+    &__logo {
+      &:nth-child(1) {
+        display: none;
+      }
+
+      &:nth-child(2) {
+        display: block;
+      }
+    }
   }
 }
 

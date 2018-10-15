@@ -5,7 +5,8 @@
 @media (min-width: 660px) {
   .research {
     display: block;
-    padding-left: 322px;
+    padding-left: 305px;
+    padding-top: 16px;
     min-height: 356px;
     background-image: url("../img/icon-timer.svg");
     background-repeat: no-repeat;
@@ -15,7 +16,8 @@
       font-size: 30px;
       line-height: 36px;
       color: rgb(0, 0, 0);
-      padding-right: 130px;
+      padding-right: 0;
+      margin-bottom: -8px;
     }
   }
 }

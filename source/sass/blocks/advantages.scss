@@ -40,7 +40,7 @@
       background-position: left top;
       background-repeat: no-repeat;
       z-index: 3;
-      top: -20px;
+      top: 10px;
       width: 268px;
       height: 481px;
 
@@ -50,10 +50,29 @@
       }
     }
 
+    &::after {
+      content: "24";
+      position: absolute;
+      width: 202px;
+      height: 202px;
+      box-sizing: border-box;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 96px;
+      font-weight: bold;
+      line-height: 149.5px;
+      color: rgb(210, 40, 86);
+      border: 12px solid rgb(210, 40, 86);
+      background-color: rgb(222, 222, 222);
+      top: 600px;
+      left: 20px;
+      z-index: 3;
+    }
+
     &__list {
       display: flex;
       flex-direction: column;
-      padding-left: 310px;
+      padding-left: 300px;
     }
 
     &__item {

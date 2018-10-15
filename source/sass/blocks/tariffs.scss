@@ -21,6 +21,7 @@
     padding-top: 17px;
     background-color: rgb(40, 54, 69);
     border: 2px solid rgb(40, 54, 69);
+    box-sizing: border-box;
     min-height: 77px;
   }
 
@@ -59,6 +60,8 @@
 
     &__name {
       font-size: 16px;
+      min-height: 40px;
+      padding-top: 14px;
     }
 
     &__price {
@@ -68,7 +71,7 @@
     &__list-characteristics {
       display: flex;
       flex-direction: column;
-      justify-content: flex-end;
+      align-items: center;
       width: 153px;
     }
   }

@@ -57,3 +57,19 @@
     }
   }
 }
+
+@media (min-width: 660px) {
+  .slider-controls {
+    &__item {
+      &::after {
+        top: -10px;
+        left: 7px;
+      }
+
+      &:first-child::before {
+        top: -12px;
+        left: 7px;
+      }
+    }
+  }
+}

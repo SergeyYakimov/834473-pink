@@ -42,11 +42,12 @@
 
 @media (min-width: 660px) {
   .contacts {
+    padding-top: 3px;
+
     &::after {
       width: 660px;
       left: -50px;
-      top: 310px;
-
+      top: 345px;
       background-size: 660px auto;
     }
 
@@ -54,6 +55,7 @@
       font-size: 40px;
       line-height: 40px;
       text-align: center;
+      margin-bottom: 55px;
     }
 
     &__wrapper {
@@ -64,6 +66,7 @@
 
     &__address {
       flex-grow: 1;
+      margin-top: 34px;
     }
   }
 }

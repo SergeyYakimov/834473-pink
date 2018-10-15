@@ -21,9 +21,36 @@
 
 @media (min-width: 660px) {
   .photo-description {
+    padding-left: 28px;
+    padding-top: 6px;
+
     &--main-photo {
       display: flex;
       flex-direction: space-between;
+      padding-top: 12px;
+      padding-left: 30px;
+
+      &--main-photo {
+        position: relative;
+      }
+    }
+
+    &__text {
+      &--third {
+        margin-bottom: 33px;
+      }
+
+      &--fifth {
+        margin-bottom: 33px;
+      }
+
+      &--sixth {
+        margin-bottom: 33px;
+      }
+
+      &--seventh {
+        margin-bottom: 33px;
+      }
     }
   }
 }
