@@ -16,8 +16,10 @@
 @media (min-width: 660px) {
   .warning {
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     right: 5px;
+    padding-top: 11px;
+    padding-bottom: 15px;
   }
 }
 

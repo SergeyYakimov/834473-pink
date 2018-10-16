@@ -31,8 +31,8 @@
       background-color: rgb(210, 40, 86);
       top: 5px;
       left: -25px;
-      z-index: 2; 
-    }
+      z-index: 2;
+    } 
 
     &::after {
       content: "";
@@ -45,6 +45,21 @@
       box-sizing: border-box;
       top: -5px;
       left: -37px;
+    }
+  }
+}
+
+@media (min-width: 660px) {
+  .apps-kind {
+    &__label {
+      &::before {
+        left: -15px;
+      }
+
+      &::after {
+        left: -26px;
+        top: -7px;
+      }
     }
   }
 }

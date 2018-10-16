@@ -77,6 +77,10 @@
 @media (min-width: 660px) {
   .tools {
     &__button {
+      &:not(:focus) + .range-controls {
+        display: block;
+      }
+
       &--cut svg {
         width: 22px;
         height: 22px;

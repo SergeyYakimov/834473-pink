@@ -10,3 +10,19 @@
   left: 189px;
   top: -5px;
 }
+
+@media (min-width: 660px) {
+  .toggle {
+    &--cut {
+      left: 148px;
+    }
+
+    &--fill {
+      left: 27px;
+    }
+
+    &--contrast {
+      left: 97px;
+    }
+  }
+}

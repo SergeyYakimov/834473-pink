@@ -3,3 +3,9 @@
   height: 2px;
   background-color: rgb(0, 0, 0);
 }
+
+@media (min-width: 660px) {
+  .scale {
+    width: 200px;
+  }
+}

@@ -42,6 +42,18 @@
   }
 }
 
+@media (min-width: 660px) {
+  .achievements {
+    &__label {
+      &::before {
+        width: 37px;
+        height: 37px;
+        left: 0;
+      }
+    }
+  }
+}
+
 @media (min-width: 960px) {
   .achievements {
     display: flex;

@@ -11,3 +11,10 @@
     left: -180px;
   }
 }
+
+@media (min-width: 660px) {
+  .range-controls {
+    top: 20px;
+    left: 60px;
+  }
+}

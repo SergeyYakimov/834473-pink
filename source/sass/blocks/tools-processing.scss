@@ -27,6 +27,8 @@
 
 @media (min-width: 660px) {
   .tools-processing {
+    margin-bottom: 0;
+
     &__list {
       flex-direction: column;
       margin-left: 0;

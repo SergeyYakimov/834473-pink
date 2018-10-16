@@ -21,6 +21,12 @@
   .apps {
     order: 1;
     background-color: rgb(255, 255, 255);
-    padding-left: 40px;
+    padding-left: 58px;
+    padding-top: 35px;
+    margin-bottom: 55px;
+
+    &__legend {
+      position: static;
+    }
   }
 }
