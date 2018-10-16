@@ -18,6 +18,10 @@
   &__logo {
     margin-bottom: 35px;
 
+    &:nth-child(2) {
+      display: none;
+    }
+
     &:hover path {
       fill: rgb(210, 40, 86);
     }
@@ -72,6 +76,16 @@
     &__wrapper {
       padding-left: 0;
       padding-right: 0;
+    }
+
+    &__logo {
+      &:nth-child(1) {
+        display: none;
+      }
+
+      &:nth-child(2) {
+        display: block;
+      }
     }
   }
 }

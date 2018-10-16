@@ -38,9 +38,11 @@
 
 @media (min-width: 960px) {
   .page-header {
+    margin: 0;
     background-image: url("../img/iphone-hand-desktop@1x.png"), url("../img/bg-back-desktop@1x.jpg");
     background-position: 0% 100%, 50% 50%;
     background-repeat: no-repeat;
+    min-height: 852px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/iphone-hand-desktop@2x.png"), url("../img/bg-back-desktop@2x.jpg");

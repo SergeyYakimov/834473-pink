@@ -57,10 +57,13 @@
   .lead-list {
     font-size: 50px;
     line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
 
     &::after {
       width: 940px;
       left: 0;
+      top: 265px;
       background-size: 940px auto;
     }
   }

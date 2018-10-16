@@ -10,6 +10,10 @@
       display: none;
     }
 
+    &:nth-child(3) {
+      display: none;
+    }
+
     &:hover path {
       fill: rgb(210, 40, 86);
     }
@@ -43,6 +47,10 @@
       &:nth-child(2) {
         display: block;
       }
+
+      &:nth-child(3) {
+        display: none;
+      }
     }
 
     &__close {
@@ -53,6 +61,18 @@
 
 @media (min-width: 960px) {
   .close-container {
+    &__logo {
+      margin-right: 170px;
+
+      &:nth-child(2) {
+        display: none;
+      }
+
+      &:nth-child(3) {
+        display: block;
+      }
+    }
+
     &__close {
       display: none;
     }

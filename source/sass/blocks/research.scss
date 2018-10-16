@@ -24,7 +24,20 @@
 
 @media (min-width: 960px) {
   .research {
-    padding-left: 456px;
-    padding-right: 0;
+    background-color: rgb(242, 242, 242);
+    padding-left: 368px;
+    padding-right: 50px;
+    padding-top: 78px;
+    background-position: left 15%;
+    background-size: 298px 345px;
+    padding-bottom: 50px;
+
+    &__conclusion {
+      margin-bottom: 2px;
+
+      & br {
+        display: none;
+      }
+    }
   }
 }

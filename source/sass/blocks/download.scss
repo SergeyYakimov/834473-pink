@@ -50,12 +50,20 @@
 
 @media (min-width: 960px) {
   .download {
-    top: 60px;
+    top: 88px;
+    left: -20px;
 
     &__slogan {
       font-size: 50px;
-      line-height: 50px;
+      line-height: 55px;
       margin-bottom: 61px;
+    }
+
+    &__text {
+      margin-left: 20px;
+      text-align: left;
+      padding-top: 21px;
+      min-width: 300px;
     }
   }
 }
