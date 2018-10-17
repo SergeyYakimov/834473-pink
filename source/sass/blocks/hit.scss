@@ -18,3 +18,9 @@
     z-index: 3;
   }
 }
+
+@media (min-width: 960px) {
+  .hit {
+    left: 480px;
+  }
+}

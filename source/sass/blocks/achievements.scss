@@ -16,7 +16,7 @@
     line-height: 30px;
     padding-left: 60px;
     position: relative;
-    
+
     &::before {
       content: "";
       position: absolute;
@@ -29,10 +29,10 @@
       border: 2px solid rgb(229, 229, 229);
       background-image: url("../img/icon-yes-form.svg");
       background-repeat: no-repeat;
-      background-position: center; 
+      background-position: center;
     }
   }
- 
+
   &__checkbox {
     display: none;
 
@@ -60,7 +60,7 @@
     flex-wrap: wrap;
 
     &__item {
-      margin-right: 60px;
+      margin-right: 65px;
 
       &:nth-child(1) {
         order: 1;
@@ -68,6 +68,7 @@
 
       &:nth-child(2) {
         order: 4;
+        margin-right: 102px;
       }
 
       &:nth-child(3) {

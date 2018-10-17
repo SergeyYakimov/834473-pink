@@ -36,13 +36,16 @@
 @media (min-width: 960px) {
   .page-title {
     &--form {
-      padding-top: 45px;
+      padding-top: 80px;
       width: 820px;
-      padding-left: 50px;
+      padding-left: 60px;
+      line-height: 60px;
     }
 
     &--photo {
-      margin-left: 250px;
+      margin-left: 270px;
+      margin-top: -60px;
+      min-width: 400px;
     }
   }
 }

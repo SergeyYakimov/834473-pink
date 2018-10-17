@@ -56,6 +56,13 @@
       height: 555px;
       margin-bottom: 54px;
 
+      &--main-photo {
+        padding-bottom: 5px;
+        margin-bottom: 45px;
+        width: 940px;
+        min-height: 605px;
+      }
+
       &:nth-child(2n + 1) {
         margin-right: 20px;
       }
@@ -66,11 +73,6 @@
 
       &:nth-child(3n + 4) {
         margin-right: 0;
-      }
-
-      &--main-photo {
-        width: 940px;
-        height: 600px;
       }
     }
   }

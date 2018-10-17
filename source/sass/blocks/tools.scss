@@ -110,3 +110,24 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .tools {
+    &__button {
+      &--cut svg {
+        width: 44px;
+        height: 44px;
+      }
+
+      &--fill svg {
+        width: 48px;
+        height: 43px;
+      }
+
+      &--contrast svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

@@ -73,6 +73,16 @@
 
 @media (min-width: 960px) {
   .page-footer {
+    padding-top: 64px;
+
+    &--photo {
+      padding-top: 67px;
+    }
+
+    &--form {
+      padding-top: 30px;
+    }
+
     &__wrapper {
       padding-left: 0;
       padding-right: 0;
@@ -85,6 +95,7 @@
 
       &:nth-child(2) {
         display: block;
+        margin-right: 20px;
       }
     }
   }

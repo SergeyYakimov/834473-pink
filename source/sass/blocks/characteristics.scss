@@ -49,3 +49,14 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .characteristics {
+    height: 59px;
+
+    &__check {
+      margin-left: 80px;
+      margin-top: 0;
+    }
+  }
+}

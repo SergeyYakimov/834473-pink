@@ -58,3 +58,18 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .carousel {
+    &__item {
+      width: 233px;
+
+      &--standard {
+        &::after {
+          background-image: url("../img/bg-hit-desktop.svg");
+          background-size: 74px 73px;
+        }
+      }
+    }
+  }
+}

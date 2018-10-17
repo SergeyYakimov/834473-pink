@@ -36,12 +36,33 @@
 
     &__item {
       margin-bottom: 30px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 275px;
+        height: 1px;
+        background-color: rgba(53, 118, 187, 0.1);
+        top: 55px;
+        left: 0;
+      }
     }
   }
 }
 
 @media (min-width: 960px) {
   .tools-processing {
-    margin-bottom: 146px;
+    margin-bottom: 90px;
+    margin-top: -15px;
+
+    &__item {
+      margin-bottom: 15px;
+
+      &::after {
+        width: 410px;
+        top: 75px;
+      }
+    }
   }
 }

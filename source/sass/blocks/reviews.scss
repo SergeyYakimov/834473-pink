@@ -97,10 +97,12 @@
     padding-top: 74px;
     padding-left: 101px;
     padding-right: 101px;
+    margin-bottom: 50px;
 
     &::after {
       width: 940px;
       left: 0;
+      top: 365px;
       background-size: 940px auto;
     }
 

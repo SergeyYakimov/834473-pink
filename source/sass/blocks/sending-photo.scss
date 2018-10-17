@@ -37,3 +37,21 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .sending-photo {
+    padding-bottom: 0;
+
+    &__slogan {
+      margin-top: -50px;
+      padding-bottom: 65px;
+      padding-left: 0;
+    }
+
+    &__sample-image {
+      padding-left: 74px;
+      margin-right: 90px;
+      margin-bottom: 0;
+    }
+  }
+}

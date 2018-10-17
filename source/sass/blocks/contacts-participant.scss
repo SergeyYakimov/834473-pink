@@ -71,11 +71,11 @@
 
       &:last-child {
         &::before {
-        background-image: url("../img/icon-mail.svg");
-        background-repeat: no-repeat;
-        background-position: center;
+          background-image: url("../img/icon-mail.svg");
+          background-repeat: no-repeat;
+          background-position: center;
         }
-      }  
+      }
     }
   }
 }
@@ -83,16 +83,36 @@
 @media (min-width: 960px) {
   .contacts-participant {
     flex-grow: 1;
+    padding-top: 15px;
+    padding-left: 58px;
+    height: 150px;
 
     &__wrapper {
       display: flex;
     }
 
+    &__legend {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+
     &__item {
-      width: 370px;
+      &::before {
+        top: 0;
+        left: 315px;
+      }
 
       &:first-child {
         margin-right: 74px;
+      }
+
+      &:last-child {
+        margin-top: -20px;
+        padding-bottom: 10px;
+
+        &::before {
+          top: 35px;
+        }
       }
     }
   }

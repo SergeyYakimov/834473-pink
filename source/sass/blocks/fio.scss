@@ -60,6 +60,12 @@
 @media (min-width: 960px) {
   .fio {
     margin-right: 75px;
-    width: 435px;
+    width: 425px;
+    margin-bottom: 53px;
+
+    &__item {
+      width: 431px;
+      margin-bottom: 55px;
+    }
   }
 }

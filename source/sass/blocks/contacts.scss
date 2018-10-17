@@ -74,35 +74,45 @@
 @media (min-width: 960px) {
   .contacts {
     padding: 0;
+    margin-bottom: 10px;
 
     &::after {
       left: -120px;
-      top: 275px;
+      top: 280px;
       width: 1200px;
+      height: 400px;
       background-size: 1200px auto;
     }
 
     &__wrapper {
       justify-content: flex-start;
-      padding-left: 40px;
+      padding-left: 47px;
       padding-right: 15px;
     }
 
     &__text {
       font-size: 50px;
-      line-height: 50px;
+      line-height: 60px;
       padding-left: 200px;
       padding-right: 200px;
-      margin-bottom: 70px;
+      margin-bottom: 55px;
     }
 
     &__phone {
-      margin-right: 135px;
+      margin-right: 110px;
+    }
+
+    &__phone-mobile,
+    &__email,
+    &__address-sp {
+      margin-top: 27px;
     }
 
     &__address {
       order: 2;
-      margin-right: 65px;
+      margin-right: 100px;
+      flex-grow: 0;
+      margin-top: 0;
     }
 
     &__mail {

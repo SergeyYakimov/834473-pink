@@ -54,3 +54,14 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .photo-description {
+    &--main-photo {
+      margin: 0;
+      padding: 0;
+      padding-left: 27px;
+      padding-top: 10px;
+    }
+  }
+}

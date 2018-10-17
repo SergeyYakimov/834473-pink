@@ -54,6 +54,7 @@
 
       &--photo {
         background-image: url("../img/bg-back-desktop@1x.jpg");
+        background-position: 50% 20%;
 
         @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
           background-image: url("../img/bg-back-desktop@2x.jpg");
@@ -63,6 +64,7 @@
 
       &--form {
         background-image: url("../img/bg-back-desktop@1x.jpg");
+        background-position: 50% 40%;
 
         @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
           background-image: url("../img/bg-back-desktop@2x.jpg");

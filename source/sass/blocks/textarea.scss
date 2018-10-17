@@ -24,6 +24,11 @@
 @media (min-width: 960px) {
   .textarea {
     width: 816px;
-    height: 124px;
+    min-height: 126px;
+    margin: 0;
+    padding: 0;
+    padding-left: 19px;
+    padding-top: 18px;
+    height: 126px;
   }
 }

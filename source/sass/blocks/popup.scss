@@ -20,11 +20,11 @@
     padding-left: 5px;
     padding-right: 5px;
 
-     & div {
-       padding-left: 15px;
-       padding-right: 15px;
-     }
-  } 
+    & div {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
 
   &__indication {
     font-weight: bold;
@@ -89,6 +89,9 @@
     padding-bottom: 0;
 
     &--warning {
+      top: 830px;
+      left: 90px;
+
       &__text {
         padding-left: 50px;
         padding-right: 50px;
@@ -96,9 +99,17 @@
     }
 
     &--confirmation {
+      top: 1230px;
+      left: 90px;
+
       &__text {
         padding-left: 25px;
         padding-right: 25px;
+
+        div {
+          display: inline;
+          padding-left: 0;
+        }
       }
     }
 

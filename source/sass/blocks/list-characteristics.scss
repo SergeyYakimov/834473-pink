@@ -24,3 +24,13 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .list-characteristics {
+    &__index {
+      padding-left: 17px;
+      width: 234px;
+      height: 59px;
+    }
+  }
+}
