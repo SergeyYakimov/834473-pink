@@ -31,6 +31,16 @@
   }
 }
 
+@media (min-width: 660px) {
+  .site-list {
+    &__item {
+      & a:active {
+        color: rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+}
+
 @media (min-width: 960px) {
   .site-list {
     display: flex;
@@ -39,7 +49,6 @@
     line-height: 18px;
     text-transform: none;
     margin-top: 30px;
-   
 
     &__item {
       margin-right: 82px;

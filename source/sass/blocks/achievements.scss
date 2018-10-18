@@ -42,6 +42,14 @@
   }
 }
 
+.achievements__checkbox:hover + label::before {
+  border: 2px solid rgba(40, 54, 69, 1);
+}
+
+.achievements__checkbox:active + label::before {
+  border: 2px solid rgba(210, 40, 86, 1);
+}
+
 @media (min-width: 660px) {
   .achievements {
     &__label {

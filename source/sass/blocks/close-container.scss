@@ -4,7 +4,7 @@
   padding-bottom: 20px;
 
   &__logo {
-    margin-right: 180px;
+    margin-right: 170px;
 
     &:nth-child(2) {
       display: none;
@@ -29,17 +29,24 @@
     font-size: 0;
     border: 0;
     background-color: transparent;
-    background-image: url("../img/icon-menu-cross.svg");
-    background-repeat: no-repeat;
+
+    &:hover path {
+      fill: rgb(210, 40, 86);
+    }
+
+    &:active path {
+      fill: rgba(210, 40, 86, 0.3);
+    }
   }
 }
 
 @media (min-width: 660px) {
   .close-container {
-    justify-content: space-between;
     min-height: 70px;
 
     &__logo {
+      margin-right: 430px;
+
       &:nth-child(1) {
         display: none;
       }
@@ -54,7 +61,7 @@
     }
 
     &__close {
-      margin-top: 20px;
+      margin-top: 0;
     }
   }
 }

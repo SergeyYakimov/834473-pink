@@ -9,5 +9,9 @@
 
   &__toggles {
     position: relative;
+
+    input {
+      display: none;
+    }
   }
 }
