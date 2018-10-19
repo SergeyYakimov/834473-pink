@@ -43,14 +43,18 @@
       background-color: rgba(40, 54, 69, 0.1);
     }
 
+    &:first-child::after {
+      display: none;
+    }
+
     &:first-child::before {
       content: "";
       position: absolute;
-      top: 6px;
-      left: 8px;
+      top: 4px;
+      left: -5px;
       z-index: 2;
-      width: 6px;
-      height: 6px;
+      width: 12px;
+      height: 12px;
       background-color: rgb(255, 255, 255);
       border: 3px solid rgb(40, 54, 69);
       border-radius: 50%;
