@@ -1,7 +1,5 @@
 .photo-description {
   padding-top: 0;
-  padding-left: 17px;
-  padding-right: 31px;
   padding-bottom: 18px;
 
   &__author {
@@ -16,6 +14,7 @@
 
   &__text {
     margin-bottom: 10px;
+    padding-left: 20px;
   }
 }
 
