@@ -22,6 +22,22 @@
   font-style: normal;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*::before {
+  box-sizing: inherit;
+}
+
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
