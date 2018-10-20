@@ -47,6 +47,10 @@
       display: none;
     }
 
+    &:nth-child(3)::after {
+      left: 14px;
+    }
+
     &:first-child::before {
       content: "";
       position: absolute;

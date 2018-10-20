@@ -5,6 +5,10 @@
     padding-top: 30px;
   }
 
+  &--photo {
+    padding-left: 30px;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;
@@ -19,6 +23,7 @@
 
   &__logo {
     margin-bottom: 35px;
+    padding-right: 10px;
 
     &:nth-child(2) {
       display: none;

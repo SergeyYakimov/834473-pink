@@ -28,7 +28,6 @@ html {
 
 * {
   box-sizing: inherit;
-  outline: 1px solid red;
 }
 
 *::before {
@@ -48,7 +47,6 @@ body {
   padding: 0;
   color: rgb(40, 54, 69);
   background-color: rgb(255, 255, 255);
-  min-width: 320px;
   box-sizing: border-box;
 }
 
