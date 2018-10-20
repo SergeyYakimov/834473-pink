@@ -5,12 +5,13 @@
 @media (min-width: 660px) {
   .research {
     display: block;
-    padding-left: 305px;
     padding-top: 16px;
     min-height: 356px;
     background-image: url("../img/icon-timer.svg");
+    background-position: 5% 7%;
     background-repeat: no-repeat;
     text-align: left;
+    padding-left: 330px;
 
     &__conclusion {
       font-size: 30px;

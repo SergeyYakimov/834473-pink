@@ -23,9 +23,15 @@
   }
 }
 
+@media (min-width: 660px) {
+  .copyright {
+    padding-top: 10px;
+  }
+}
+
 @media (min-width: 960px) {
   .copyright {
-    padding-top: 8px;
+    padding-top: 15px;
 
     &__text {
       font-size: 18px;

@@ -38,7 +38,12 @@
 
 @media (min-width: 660px) {
   .tariffs {
+    padding-top: 95px;
     padding-bottom: 70px;
+
+    &__name {
+      padding-bottom: 0;
+    }
 
     &__toggles {
       display: none;

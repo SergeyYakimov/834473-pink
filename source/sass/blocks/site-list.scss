@@ -34,6 +34,9 @@
 @media (min-width: 660px) {
   .site-list {
     &__item {
+      padding-top: 16px;
+      padding-bottom: 16px;
+
       & a:active {
         color: rgba(255, 255, 255, 0.3);
       }

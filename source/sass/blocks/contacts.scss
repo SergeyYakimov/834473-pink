@@ -43,11 +43,12 @@
 @media (min-width: 660px) {
   .contacts {
     padding-top: 3px;
+    margin-bottom: 15px;
 
     &::after {
       width: 660px;
       left: -50px;
-      top: 345px;
+      top: 360px;
       background-size: 660px auto;
     }
 
@@ -56,6 +57,16 @@
       line-height: 40px;
       text-align: center;
       margin-bottom: 55px;
+      padding-left: 14px;
+      padding-right: 25px;
+    }
+
+    &__phone {
+      padding-left: 25px;
+    }
+
+    &__mail {
+      padding-right: 20px;
     }
 
     &__wrapper {

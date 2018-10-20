@@ -67,12 +67,12 @@
     &__item {
       &::after {
         top: -10px;
-        left: 7px;
+        left: 5px;
       }
 
       &:first-child::before {
         top: -12px;
-        left: 7px;
+        left: -4px;
       }
     }
   }
