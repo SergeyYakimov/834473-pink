@@ -8,12 +8,24 @@
     color: rgb(0, 0, 0);
     margin-bottom: 0;
   }
+
+  &__text {
+    &--2 br {
+      display: none;
+    }
+  }
 }
 
 @media (min-width: 660px) {
   .pluses {
     &:last-child {
       margin-bottom: 30px;
+    }
+
+    &__text {
+      &--2 br {
+        display: inline;
+      }
     }
   }
 }
@@ -31,6 +43,10 @@
       font-size: 18px;
       line-height: 30px;
       text-align: center;
+
+      &--2 br {
+        display: none;
+      }
     }
   }
 }

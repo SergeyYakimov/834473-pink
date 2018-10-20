@@ -11,9 +11,12 @@
   }
 
   &__sample-image {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    width: 280px;
+    height: 374px;
+    padding-top: 30px;
   }
 }
 
@@ -38,6 +41,8 @@
 
     &__sample-image {
       margin-right: 47px;
+      width: 300px;
+      height: 400px;
     }
   }
 }

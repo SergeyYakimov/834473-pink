@@ -1,5 +1,7 @@
 .img-wrapper {
   margin: 0 20px;
+  min-width: 280px;
+  min-height: 180px;
 
   &--main-photo {
     min-width: 320px;
@@ -11,8 +13,14 @@
 
 @media (min-width: 660px) {
   .img-wrapper {
+    margin-bottom: -10px;
+    width: 300px;
+    height: 300px;
+
     &--main-photo {
-      min-height: 509px;
+      height: 509px;
+      width: 700px;
+      margin-bottom: -25px;
     }
   }
 }

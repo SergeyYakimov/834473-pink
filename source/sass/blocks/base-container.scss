@@ -1,19 +1,19 @@
 .base-container {
-  width: 305px;
+  width: 320px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 @media (min-width: 660px) {
   .base-container {
-    width: 645px;
+    width: 660px;
     margin: 0 auto;
   }
 }
 
 @media (min-width: 960px) {
   .base-container {
-    width: 945px;
+    width: 960px;
     margin: 0 auto;
   }
 }
