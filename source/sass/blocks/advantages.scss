@@ -85,7 +85,8 @@
 
 @media (min-width: 960px) {
   .advantages {
-    padding-top: 315px;
+    padding-top: 255px;
+    padding-left: 35px;
     background-image: none;
     margin-bottom: 0;
 
@@ -95,8 +96,8 @@
       background-position: left top, center top, right top;
       width: 940px;
       height: 302px;
-      left: 0;
-      top: -10px;
+      left: 20px;
+      top: -70px;
 
       @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
         background-image: url("../img/iphone-screen-1-desktop@2x.png"), url("../img/iphone-screen-2-desktop@2x.png"), url("../img/iphone-screen-3-desktop@2x.png");
@@ -110,8 +111,8 @@
       font-size: 120px;
       line-height: 187px;
       padding: 10px;
-      top: 685px;
-      left: 26px;
+      top: 625px;
+      left: 45px;
       border: 17px solid rgb(210, 40, 86);
     }
 
@@ -121,9 +122,9 @@
     }
 
     &__item {
-      margin-right: 65px;
-      width: 230px;
-      padding-left: 25px;
+      margin-right: 75px;
+      width: 250px;
+      padding-left: 0;
 
       &:last-child {
         margin-right: 0;

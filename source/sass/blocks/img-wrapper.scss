@@ -24,3 +24,15 @@
     }
   }
 }
+
+@media (min-width: 960px) {
+  .img-wrapper {
+    width: 300px;
+    height: 400px;
+
+    &--main-photo {
+      height: 506px;
+      width: 1200px;
+    }
+  }
+}

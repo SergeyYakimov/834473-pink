@@ -97,16 +97,15 @@
 @media (min-width: 960px) {
   .reviews {
     margin-top: 0;
-    padding-top: 74px;
+    padding-top: 130px;
     padding-left: 101px;
     padding-right: 101px;
-    margin-bottom: 50px;
 
     &::after {
-      width: 940px;
+      width: 960px;
       left: 0;
-      top: 365px;
-      background-size: 940px auto;
+      top: 440px;
+      background-size: 960px auto;
     }
 
     &::before {
@@ -115,8 +114,8 @@
       width: 79px;
       height: 63px;
       background-image: url("../img/icon-quotes.svg");
-      top: 20px;
-      left: 435px;
+      top: 80px;
+      left: 455px;
     }
 
     &__author-name {
@@ -129,6 +128,7 @@
 
     &__text {
       line-height: 30px;
+      margin-bottom: 15px;
     }
   }
 }
