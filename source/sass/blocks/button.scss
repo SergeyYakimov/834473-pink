@@ -108,15 +108,19 @@
     }
 
     &--active {
-      min-width: 0;
-      padding-top: 13px;
-      padding-bottom: 13px;
-      margin-right: 10px;
+      min-width: 260px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-right: 25px;
       margin-bottom: 25px;
     }
 
     &--inactive {
-      margin-right: 10px;
+      min-width: 260px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-right: 25px;
+      margin-bottom: 25px;
     }
   }
 }

@@ -5,6 +5,10 @@
   flex-direction: column;
 }
 
+@media (min-width: 660px) {
+  padding-top: 10px;
+}
+
 @media (min-width: 960px) {
   .buttons-actions {
     flex-direction: row;
