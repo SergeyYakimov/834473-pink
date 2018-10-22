@@ -6,11 +6,11 @@
     content: "";
     position: absolute;
     z-index: 2;
-    width: 320px;
+    max-width: 320px;
     height: 258px;
     background-image: url("../img/bg-triangle-white-footer.svg");
     background-repeat: no-repeat;
-    background-size: 305px auto;
+    background-size: 320px auto;
   }
 
   &__text {
@@ -50,7 +50,7 @@
     margin-bottom: 20px;
 
     &::after {
-      width: 660px;
+      max-width: 660px;
       right: 0;
       top: 390px;
       background-size: 660px auto;
@@ -93,17 +93,17 @@
     margin-bottom: 10px;
 
     &::after {
-      left: -120px;
+      left: 0;
       top: 320px;
-      width: 1200px;
+      max-width: 960px;
       height: 400px;
-      background-size: 1200px auto;
+      background-size: 960px auto;
     }
 
     &__wrapper {
       justify-content: flex-start;
-      padding-left: 47px;
-      padding-right: 15px;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     &__text {
@@ -126,7 +126,7 @@
 
     &__address {
       order: 2;
-      margin-right: 85px;
+      margin-right: 55px;
       flex-grow: 0;
       margin-top: 0;
     }

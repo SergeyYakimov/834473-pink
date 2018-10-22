@@ -62,8 +62,7 @@
       &--main-photo {
         padding-bottom: 5px;
         margin-bottom: 45px;
-        width: 1200px;
-        min-height: 506px;
+        max-width: 960px;
       }
 
       &:nth-child(2n + 1) {

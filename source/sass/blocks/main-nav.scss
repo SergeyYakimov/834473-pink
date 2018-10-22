@@ -12,6 +12,7 @@
 @media (min-width: 960px) {
   .main-nav {
     display: flex;
+    flex-wrap: wrap;
     background-color: transparent;
   }
 }

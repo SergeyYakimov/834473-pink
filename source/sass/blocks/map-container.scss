@@ -1,8 +1,8 @@
 .map-container {
-  min-width: 320px;
+  max-width: 320px;
   padding-left: 0;
   padding-right: 0;
-  margin: 0 -20px;
+  margin: 0;
   height: 200px;
   background-image: url("../img/bg-map-mobile-1@1x.jpg");
   background-repeat: no-repeat;
@@ -22,16 +22,15 @@
 
 @media (min-width: 660px) {
   .map-container {
-    min-width: 660px;
+    max-width: 660px;
     height: 370px;
     background-image: url("../img/bg-map-tablet-1@1x.jpg");
     background-repeat: no-repeat;
-    background-position: 50% 75%;
     margin-bottom: 10px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/bg-map-tablet-1@2x.jpg");
-      background-size: 700px auto;
+      background-size: 660px auto;
     }
 
     & iframe {
@@ -44,9 +43,8 @@
 
 @media (min-width: 960px) {
   .map-container {
-    min-width: 1200px;
+    max-width: 960px;
     height: 500px;
-    margin: 0 -10px;
     background-image: url("../img/bg-map-desktop-1@1x.jpg");
     background-repeat: no-repeat;
     background-position: 50% 60%;
@@ -54,7 +52,7 @@
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/bg-map-desktop-1@2x.jpg");
-      background-size: 1200px auto;
+      background-size: 960px auto;
     }
 
     & iframe {
