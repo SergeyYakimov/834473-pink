@@ -1,6 +1,8 @@
 .carousel {
   display: flex;
   position: relative;
+  padding: 0;
+  margin: 0;
   padding-top: 20px;
 
   &__toggles {
