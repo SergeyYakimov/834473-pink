@@ -3,19 +3,22 @@
   font-size: 24px;
   font-weight: lighter;
   margin: 0;
-  margin-top: -10px;
-  padding-left: 0;
+  margin-bottom: 35px;
+  margin-top: -2px;
+  line-height: 28px;
+  padding-left: 15px;
   padding-right: 0;
-  padding-top: 5px;
+  padding-top: 0;
   position: relative;
 
   &::after {
     content: "";
     position: absolute;
-    max-width: 320px;
+    width: 305px;
     height: 392px;
     z-index: 2;
     left: 0;
+    top: 175px;
     background-image: url("../img/bg-triangle-white.svg");
     background-repeat: no-repeat;
     background-size: 320px auto;
@@ -24,7 +27,7 @@
   &__item {
     margin: 0;
     padding: 0;
-    margin-bottom: 42px;
+    margin-bottom: 28px;
     text-align: center;
   }
 }
