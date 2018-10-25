@@ -3,9 +3,15 @@
   padding-bottom: 0;
   background-color: rgb(242, 242, 242);
   margin: 0 20px;
+  width: 280px;
+
+  &--main-photo {
+    margin-top: -5px;
+  }
 
   &__author {
     font-weight: bold;
+    padding-top: 22px;
   }
 
   &__time {
@@ -15,10 +21,10 @@
   }
 
   &__text {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: -45px;
-    padding-top: 15px;
+    padding-left: 17px;
+    padding-right: 14px;
+    margin-top: 0;
+    padding-top: 17px;
     margin-bottom: 10px;
 
     &--second,
@@ -28,7 +34,7 @@
     &--sixth,
     &--seventh {
       padding-top: 25px;
-      margin-top: -10px;
+      margin-top: -15px;
     }
   }
 }

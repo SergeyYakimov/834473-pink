@@ -8,18 +8,22 @@
   }
 
   &__item {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+
+    &:nth-child(5) {
+      margin-bottom: 22px;
+    }
+
+    &:nth-child(6) {
+      margin-bottom: 23px;
+    }
 
     a {
       margin: 0 auto;
     }
 
     &:last-child {
-      margin-bottom: 37px;
-    }
-
-    &:first-child {
-      position: relative;
+      margin-bottom: 21px;
     }
   }
 }

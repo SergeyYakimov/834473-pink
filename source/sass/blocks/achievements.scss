@@ -4,25 +4,25 @@
   padding: 0;
 
   &__item {
-    margin-bottom: 53px;
+    margin-bottom: 52px;
 
     &:last-child {
-      margin-bottom: 35px;
+      margin-bottom: 37px;
     }
   }
 
   &__label {
     font-size: 18px;
     line-height: 30px;
-    padding-left: 60px;
+    padding-left: 80px;
     position: relative;
 
     &::before {
       content: "";
       position: absolute;
       top: -5px;
-      left: -10px;
-      width: 35px;
+      left: 10px;
+      width: 37px;
       height: 35px;
       box-sizing: border-box;
       background-color: rgb(255, 255, 255);

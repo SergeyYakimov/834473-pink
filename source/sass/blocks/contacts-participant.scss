@@ -1,13 +1,13 @@
 .contacts-participant {
   margin: 0;
   padding: 0;
-  padding-top: 18px;
+  padding-top: 20px;
   padding-bottom: 20px;
 
   &__item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 28px;
+    margin-bottom: 18px;
 
     &:last-child {
       margin-bottom: 20px;
@@ -23,7 +23,13 @@
     line-height: 30px;
     color: rgb(210, 40, 86);
     text-transform: uppercase;
-    padding-left: 23px;
+    padding-left: 21px;
+    margin-bottom: 5px;
+  }
+
+  &__input {
+    width: 280px;
+    padding-bottom: 20px;
   }
 }
 
