@@ -6,8 +6,8 @@
 
 @media (min-width: 660px) {
   .main-photo {
-    max-width: none;
+    max-width: 700px;
     min-width: 645px;
-    margin: 0 auto;
+    position: absolute;
   }
 }
