@@ -46,12 +46,12 @@
 @media (min-width: 660px) {
   .close-container {
     min-height: 70px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 35px;
     width: 645px;
 
     &__logo {
-      margin-right: 430px;
+      margin-right: 444px;
 
       &:nth-child(1) {
         display: none;
@@ -68,6 +68,7 @@
 
     &__close {
       margin-top: 0;
+      padding-top: 12px;
     }
   }
 }

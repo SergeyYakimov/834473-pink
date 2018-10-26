@@ -44,7 +44,7 @@
 
 @media (min-width: 660px) {
   .page-footer {
-    padding-top: 53px;
+    padding-top: 40px;
 
     &--form {
       padding-top: 20px;
@@ -80,7 +80,10 @@
       display: flex;
       padding-left: 20px;
       padding-top: 0;
-      justify-content: space-between;
+    }
+
+    &__logo {
+      margin-right: 70px;
     }
   }
 }

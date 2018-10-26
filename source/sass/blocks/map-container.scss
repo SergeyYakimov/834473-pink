@@ -21,11 +21,10 @@
 
 @media (min-width: 660px) {
   .map-container {
-    max-width: 660px;
     height: 370px;
     background-image: url("../img/bg-map-tablet-1@1x.jpg");
     background-repeat: no-repeat;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 
     @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
       background-image: url("../img/bg-map-tablet-1@2x.jpg");
@@ -42,7 +41,6 @@
 
 @media (min-width: 960px) {
   .map-container {
-    max-width: 960px;
     height: 500px;
     background-image: url("../img/bg-map-desktop-1@1x.jpg");
     background-repeat: no-repeat;

@@ -1,9 +1,13 @@
 .download {
+  max-width: 320px;
   padding-top: 30px;
   padding-bottom: 35px;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: -5px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: rgb(29, 38, 49);
 
   &__text {
@@ -25,12 +29,12 @@
 @media (min-width: 660px) {
   .download {
     position: absolute;
-    width: 350px;
     top: 93px;
     display: flex;
     flex-direction: column;
-    padding-top: 0;
+    padding-top: 3px;
     padding-bottom: 0;
+    padding-right: 0;
     background-color: transparent;
     min-height: 700px;
 
@@ -40,10 +44,10 @@
       margin: 0;
       order: -1;
       text-align: center;
-      padding-left: 50px;
+      padding-left: 55px;
       padding-right: 100px;
       line-height: 50px;
-      margin-bottom: 40px;
+      margin-bottom: 25px;
     }
 
     &__text {

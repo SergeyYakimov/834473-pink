@@ -29,10 +29,14 @@
 
 @media (min-width: 660px) {
   .copyright {
-    padding-top: 10px;
+    padding-top: 2px;
 
     &__text {
-      margin-right: 6px;
+      margin-right: 18px;
+    }
+
+    &__link {
+      padding-top: 10px;
     }
   }
 }
