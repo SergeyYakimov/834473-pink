@@ -24,13 +24,17 @@
 
     &__slogan {
       font-size: 18px;
-      padding-bottom: 72px;
-      margin-top: -25px;
+      padding-bottom: 70px;
+      margin-top: -10px;
+
+      & br:last-child {
+        display: none;
+      }
     }
 
     &__wrapper {
       display: flex;
-      padding-top: 35px;
+      padding-top: 38px;
       padding-bottom: 0;
     }
 
@@ -40,10 +44,9 @@
     }
 
     &__sample-image {
-      margin-right: 47px;
-      width: 300px;
-      height: 400px;
       padding-top: 0;
+      margin-right: 20px;
+      margin-bottom: 50px;
     }
   }
 }

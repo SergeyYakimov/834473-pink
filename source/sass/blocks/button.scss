@@ -112,16 +112,15 @@
       min-width: 260px;
       padding-top: 15px;
       padding-bottom: 15px;
-      margin-right: 25px;
       margin-bottom: 25px;
+      padding-left: 0;
     }
 
     &--inactive {
       min-width: 260px;
       padding-top: 15px;
       padding-bottom: 15px;
-      margin-right: 25px;
-      margin-bottom: 25px;
+      margin-bottom: 0;
     }
   }
 }

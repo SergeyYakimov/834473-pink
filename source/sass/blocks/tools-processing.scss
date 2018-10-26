@@ -38,8 +38,14 @@
     }
 
     &__item {
-      margin-bottom: 30px;
+      margin-top: -2px;
+      padding-left: 15px;
+      margin-bottom: 35px;
       position: relative;
+
+      &:nth-child(2) {
+        margin-bottom: 22px;
+      }
 
       &::after {
         content: "";
@@ -48,11 +54,12 @@
         height: 1px;
         background-color: rgba(53, 118, 187, 0.1);
         top: 55px;
-        left: 0;
+        left: 25px;
       }
 
       &:last-child {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
+        padding-left: 23px;
       }
     }
   }

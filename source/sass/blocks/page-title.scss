@@ -26,7 +26,10 @@
 
     &--photo {
       padding-top: 85px;
-      line-height: 55px;
+      line-height: 58px;
+      padding-left: 0;
+      margin-left: -100px;
+      width: 500px;
     }
 
     &--form {

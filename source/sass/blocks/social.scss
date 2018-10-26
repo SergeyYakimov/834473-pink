@@ -55,6 +55,11 @@
   .social {
     padding-top: 5px;
 
+    &--photo {
+      padding-top: 0;
+      margin-top: -4px;
+    }
+
     &__list {
       margin-right: 80px;
     }

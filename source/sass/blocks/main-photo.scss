@@ -3,3 +3,11 @@
   margin: 0 auto;
   position: relative;
 }
+
+@media (min-width: 660px) {
+  .main-photo {
+    max-width: none;
+    min-width: 645px;
+    margin: 0 auto;
+  }
+}

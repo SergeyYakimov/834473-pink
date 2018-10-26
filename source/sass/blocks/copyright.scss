@@ -32,7 +32,11 @@
     padding-top: 2px;
 
     &__text {
-      margin-right: 18px;
+      margin-right: 16px;
+
+      &--photo {
+        margin-right: 10px;
+      }
     }
 
     &__link {
