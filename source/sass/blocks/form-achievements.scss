@@ -22,13 +22,16 @@
   .form-achievements {
     order: 3;
     background-color: rgb(255, 255, 255);
-    padding-left: 55px;
-    padding-top: 45px;
+    padding-left: 37px;
+    padding-top: 49px;
     padding-bottom: 15px;
+    margin: 0;
     margin-bottom: 50px;
 
     &__legend {
       position: static;
+      padding-right: 35px;
+      padding-left: 35px;
     }
   }
 }

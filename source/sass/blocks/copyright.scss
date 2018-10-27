@@ -37,10 +37,18 @@
       &--photo {
         margin-right: 10px;
       }
+
+      &--form {
+        margin-right: 7px;
+      }
     }
 
     &__link {
       padding-top: 10px;
+
+      &--form {
+        padding-top: 12px;
+      }
     }
   }
 }

@@ -26,10 +26,14 @@
     background-color: rgb(255, 255, 255);
     padding-left: 58px;
     padding-top: 35px;
-    margin-bottom: 55px;
+    margin-bottom: 54px;
+    margin-left: 0;
+    margin-right: 0;
 
     &__legend {
       position: static;
+      padding-left: 30px;
+      padding-right: 30px;
     }
   }
 }

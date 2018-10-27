@@ -54,9 +54,10 @@
   .achievements {
     &__label {
       &::before {
-        width: 37px;
+        width: 38px;
         height: 37px;
-        left: 0;
+        left: 20px;
+        top: -6px;
       }
     }
   }

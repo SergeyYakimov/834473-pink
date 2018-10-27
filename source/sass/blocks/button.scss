@@ -100,7 +100,8 @@
   .button {
     &--submit {
       order: 5;
-      width: 296px;
+      min-width: 282px;
+      width: 300px;
     }
 
     &--download {

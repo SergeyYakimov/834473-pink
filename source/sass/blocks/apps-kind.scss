@@ -59,14 +59,24 @@
 
 @media (min-width: 660px) {
   .apps-kind {
+    padding-left: 28px;
+
+    &__item:last-child {
+      margin-bottom: 50px;
+    }
+
     &__label {
+      padding-left: 30px;
+      padding-top: 25px;
+
       &::before {
         left: -15px;
+        top: 30px;
       }
 
       &::after {
-        left: -26px;
-        top: -7px;
+        left: -27px;
+        top: 21px;
       }
     }
   }
