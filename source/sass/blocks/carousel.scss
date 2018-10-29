@@ -67,6 +67,10 @@
     &__item {
       width: 235px;
 
+      &--no-limit {
+        width: 229px;
+      }
+
       &--standard {
         width: 232px;
 
