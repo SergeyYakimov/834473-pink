@@ -39,7 +39,7 @@
 
 @media (min-width: 660px) {
   .tariffs {
-    padding-top: 115px;
+    padding-top: 113px;
     padding-bottom: 65px;
 
     &__toggles {
@@ -86,20 +86,22 @@
 @media (min-width: 960px) {
   .tariffs {
     padding: 0;
-    padding-top: 150px;
-    padding-bottom: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 167px;
+    padding-bottom: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     &__item {
-      width: 233px;
+      width: 263px;
     }
 
     &__name {
-      padding-top: 18px;
+      padding-top: 15px;
       padding-bottom: 18px;
       font-size: 18px;
       line-height: 30px;
+      min-height: 40px;
+      padding-left: 5px;
     }
 
     &__price {

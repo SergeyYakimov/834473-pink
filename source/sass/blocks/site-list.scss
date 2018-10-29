@@ -53,6 +53,8 @@
 
 @media (min-width: 960px) {
   .site-list {
+    position: absolute;
+    left: 315px;
     display: flex;
     font-weight: normal;
     font-size: 18px;
@@ -61,11 +63,16 @@
     margin-top: 0;
     padding-left: 0;
     margin-bottom: 0;
-    padding-top: 30px;
+    padding-top: 27px;
 
     &__item {
-      margin-right: 82px;
+      margin-right: 71px;
       box-shadow: none;
+
+      &:nth-child(3) {
+        padding-top: 18px;
+        margin-right: 68px;
+      }
 
       &:last-child {
         margin-right: 0;

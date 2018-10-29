@@ -54,11 +54,16 @@
 
 @media (min-width: 960px) {
   .characteristics {
-    height: 59px;
+    height: 61px;
 
     &__check {
+      margin-top: 5px;
       margin-left: 80px;
-      margin-top: 0;
+
+      &--no {
+        margin-left: 80px;
+        margin-top: 0;
+      }
     }
   }
 }

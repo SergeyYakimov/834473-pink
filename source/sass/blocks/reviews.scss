@@ -118,11 +118,12 @@
     padding-top: 130px;
     padding-left: 101px;
     padding-right: 101px;
+    margin-bottom: 42px;
 
     &::after {
-      max-width: 960px;
+      width: 945px;
       left: 0;
-      top: 440px;
+      top: 427px;
       background-size: 960px auto;
     }
 
@@ -132,12 +133,13 @@
       width: 79px;
       height: 63px;
       background-image: url("../img/icon-quotes.svg");
-      top: 80px;
-      left: 455px;
+      top: 75px;
+      left: 445px;
     }
 
     &__author-name {
       font-size: 24px;
+      margin-bottom: 0;
     }
 
     &__author-description {
@@ -146,7 +148,9 @@
 
     &__text {
       line-height: 30px;
-      margin-bottom: 15px;
+      margin-bottom: 37px;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }

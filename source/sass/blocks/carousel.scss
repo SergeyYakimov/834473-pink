@@ -65,12 +65,16 @@
 @media (min-width: 960px) {
   .carousel {
     &__item {
-      width: 220px;
+      width: 235px;
 
       &--standard {
+        width: 232px;
+
         &::after {
           background-image: url("../img/bg-hit-desktop.svg");
           background-size: 74px 73px;
+          left: 0;
+          top: 0;
         }
       }
     }

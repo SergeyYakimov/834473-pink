@@ -76,7 +76,11 @@
 @media (min-width: 960px) {
   .close-container {
     width: 100px;
-    margin-right: 200px;
+    margin-right: 0;
+    margin-left: -463px;
+    padding-left: 0;
+    padding-right: 0;
+
 
     &__logo {
       margin-right: 0;

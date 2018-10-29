@@ -89,7 +89,7 @@
 
 @media (min-width: 960px) {
   .page-footer {
-    padding-top: 64px;
+    padding-top: 56px;
 
     &--photo {
       padding-top: 67px;
@@ -105,7 +105,8 @@
     }
 
     &__bottom {
-      padding-left: 0;
+      padding-left: 10px;
+      padding-top: 22px;
       padding-right: 0;
       margin: 0;
     }
@@ -117,7 +118,7 @@
 
       &:nth-child(2) {
         display: block;
-        margin-right: 20px;
+        margin-right: 230px;
       }
     }
   }

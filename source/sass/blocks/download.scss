@@ -72,13 +72,16 @@
 
     &__slogan {
       font-size: 50px;
-      line-height: 55px;
+      line-height: 60px;
       margin-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 10px;
     }
 
     &__text {
-      margin-left: 20px;
-      text-align: left;
+      margin-left: -10px;
+      text-align: center;
       padding-top: 0;
       min-width: 300px;
     }
