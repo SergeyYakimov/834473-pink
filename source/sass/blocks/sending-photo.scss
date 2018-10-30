@@ -54,19 +54,19 @@
 @media (min-width: 960px) {
   .sending-photo {
     padding-bottom: 0;
+    margin-left: 10px;
 
     &__slogan {
       margin-top: -50px;
       padding-bottom: 65px;
-      padding-left: 0;
+      padding-left: 10px;
     }
 
     &__sample-image {
-      padding-left: 74px;
-      margin-right: 90px;
-      margin-bottom: 0;
-      width: 300px;
-      height: 400px;
+      margin-left: 80px;
+      margin-right: 7px;
+      margin-bottom: 50px;
+      padding-bottom: 5px;
     }
   }
 }

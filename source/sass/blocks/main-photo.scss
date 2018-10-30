@@ -11,3 +11,12 @@
     position: absolute;
   }
 }
+
+@media (min-width: 960px) {
+  .main-photo {
+    max-width: 1200px;
+    min-width: 945px;
+    position: absolute;
+    left: -90px;
+  }
+}

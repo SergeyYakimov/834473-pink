@@ -70,12 +70,24 @@
     margin-bottom: 90px;
     margin-top: -15px;
 
+    &__list {
+      padding-left: 60px;
+    }
+
     &__item {
-      margin-bottom: 15px;
+      margin-bottom: 17px;
 
       &::after {
         width: 410px;
         top: 75px;
+      }
+
+      &:nth-child(2) {
+        margin-bottom: 9px;
+      }
+
+      &:nth-child(3)::after {
+        top: 65px;
       }
     }
   }

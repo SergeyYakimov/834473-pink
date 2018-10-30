@@ -58,14 +58,39 @@
 
 @media (min-width: 960px) {
   .user-photos {
+    margin-bottom: 65px;
+
+    &__list {
+      width: 945px;
+    }
+
     &__item {
       height: 555px;
       margin-bottom: 54px;
 
       &--main-photo {
-        padding-bottom: 5px;
-        margin-bottom: 45px;
-        max-width: 960px;
+        padding-bottom: 0;
+        margin-bottom: 100px;
+      }
+
+      &:nth-child(2) {
+        margin-left: -10px;
+      }
+
+      &:nth-child(4) {
+        margin-left: -25px;
+      }
+
+      &:nth-child(5) {
+        margin-left: -10px;
+      }
+
+      &:nth-child(6) {
+        margin-left: -20px;
+      }
+
+      &:nth-child(7) {
+        margin-left: -5px;
       }
 
       &:nth-child(2n + 1) {

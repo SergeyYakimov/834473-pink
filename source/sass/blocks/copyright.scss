@@ -60,6 +60,10 @@
     &__text {
       font-size: 18px;
       margin-right: 13px;
+
+      &--photo {
+        margin-right: 0;
+      }
     }
   }
 }

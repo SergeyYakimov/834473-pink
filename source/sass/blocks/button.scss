@@ -143,13 +143,14 @@
 
     &--active {
       box-sizing: border-box;
-      width: 183px;
+      min-width: 142px;
+      width: 185px;
       height: 55px;
       padding-left: 45px;
       padding-right: 40px;
       padding-top: 15px;
-      padding-bottom: 15px;
-      margin-right: 44px;
+      padding-bottom: 0;
+      margin-right: 25px;
       margin-bottom: 0;
     }
 

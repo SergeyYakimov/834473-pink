@@ -84,5 +84,12 @@
         margin-right: 13px;
       }
     }
+
+    &__link {
+      &--photo {
+        width: 52px;
+        height: 52px;
+      }
+    }
   }
 }

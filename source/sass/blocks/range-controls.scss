@@ -29,7 +29,15 @@
 
 @media (min-width: 960px) {
   .range-controls {
-    top: 40px;
-    left: 98px;
+    top: 38px;
+    left: 113px;
+
+    &--fill {
+      top: 36px;
+    }
+
+    &--contrast {
+      top: 30px;
+    }
   }
 }
