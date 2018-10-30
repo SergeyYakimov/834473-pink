@@ -29,10 +29,12 @@
 
 @media (min-width: 960px) {
   .letter {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 60px;
+    padding-right: 20px;
     padding-top: 12px;
     padding-bottom: 24px;
+    width: 945px;
+    margin-bottom: 63px;
 
     &__label {
       padding-left: 38px;

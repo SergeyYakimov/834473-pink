@@ -38,12 +38,14 @@
 
 @media (min-width: 960px) {
   .contest {
+    background-color: rgb(255, 255, 255);
+
     &__description {
-      margin-top: -550px;
-      padding-left: 82px;
-      padding-right: 82px;
-      padding-top: 92px;
-      padding-bottom: 97px;
+      margin-top: -490px;
+      padding-left: 92px;
+      padding-right: 92px;
+      padding-top: 90px;
+      padding-bottom: 86px;
 
       &--offer {
         display: inline-block;
