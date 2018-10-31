@@ -5,19 +5,19 @@
   margin-bottom: 25px;
   margin-left: -20px;
   margin-right: -20px;
+}
 
-  &__legend {
-    font-size: 14px;
-    line-height: 18px;
-    color: rgb(210, 40, 86);
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 10px;
-    padding-right: 10px;
-    display: block;
-    position: absolute;
-    top: 40px;
-  }
+.apps__legend {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(210, 40, 86);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  display: block;
+  position: absolute;
+  top: 40px;
 }
 
 @media (min-width: 660px) {
@@ -29,12 +29,12 @@
     margin-bottom: 54px;
     margin-left: 0;
     margin-right: 0;
+  }
 
-    &__legend {
-      position: static;
-      padding-left: 30px;
-      padding-right: 30px;
-    }
+  .apps__legend {
+    position: static;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -47,10 +47,10 @@
     width: 430px;
     padding-top: 40px;
     padding-left: 50px;
+  }
 
-    &__legend {
-      padding-left: 25px;
-      padding-right: 25px;
-    }
+  .apps__legend {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }

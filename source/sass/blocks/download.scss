@@ -9,21 +9,21 @@
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(29, 38, 49);
+}
 
-  &__text {
-    font-weight: lighter;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-left: 15px;
-  }
+.download__text {
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-left: 15px;
+}
 
-  &__slogan {
-    display: none;
-    font-size: 40px;
-    font-weight: lighter;
-    line-height: 40px;
-    color: rgb(255, 255, 255);
-  }
+.download__slogan {
+  display: none;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
 }
 
 @media (min-width: 660px) {
@@ -37,27 +37,27 @@
     padding-right: 0;
     background-color: transparent;
     min-height: 700px;
+  }
 
-    &__slogan {
-      display: flex;
-      padding: 0;
-      margin: 0;
-      order: -1;
-      text-align: center;
-      padding-left: 55px;
-      padding-right: 100px;
-      line-height: 50px;
-      margin-bottom: 25px;
-    }
+  .download__slogan {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    order: -1;
+    text-align: center;
+    padding-left: 55px;
+    padding-right: 100px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
 
-    &__text {
-      font-size: 18px;
-      line-height: 24px;
-      padding: 0;
-      text-align: left;
-      margin-right: 0;
-      padding-top: -50px;
-    }
+  .download__text {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+    text-align: left;
+    margin-right: 0;
+    padding-top: -50px;
   }
 }
 
@@ -69,21 +69,21 @@
     padding-bottom: 40px;
     padding-right: 20px;
     min-height: 300px;
+  }
 
-    &__slogan {
-      font-size: 50px;
-      line-height: 60px;
-      margin-bottom: 0;
-      padding-left: 0;
-      padding-right: 0;
-      padding-top: 10px;
-    }
+  .download__slogan {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+  }
 
-    &__text {
-      margin-left: -10px;
-      text-align: center;
-      padding-top: 0;
-      min-width: 300px;
-    }
+  .download__text {
+    margin-left: -10px;
+    text-align: center;
+    padding-top: 0;
+    min-width: 300px;
   }
 }

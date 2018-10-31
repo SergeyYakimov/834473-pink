@@ -3,49 +3,49 @@
   margin: 0;
   padding: 0;
   padding-left: 45px;
+}
 
-  &__item {
-    margin-bottom: 45px;
-  }
+.apps-kind__item {
+  margin-bottom: 45px;
+}
 
-  &__radio {
+.apps-kind__radio {
+  display: none;
+
+  &:not(:checked) + .apps-kind__label::before {
     display: none;
+  }
+}
 
-    &:not(:checked) + .apps-kind__label::before {
-      display: none;
-    }
+.apps-kind__label {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 33px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(210, 40, 86);
+    top: 5px;
+    left: -25px;
+    z-index: 2;
   }
 
-  &__label {
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 33px;
-    position: relative;
-
-    &::before {
-      content: "";
-      position: absolute;
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background-color: rgb(210, 40, 86);
-      top: 5px;
-      left: -25px;
-      z-index: 2;
-    }
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 37px;
-      height: 36px;
-      background-color: rgb(255, 255, 255);
-      border-radius: 50%;
-      border: 2px solid rgb(229, 229, 229);
-      box-sizing: border-box;
-      top: -5px;
-      left: -37px;
-    }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid rgb(229, 229, 229);
+    box-sizing: border-box;
+    top: -5px;
+    left: -37px;
   }
 }
 
@@ -60,41 +60,39 @@
 @media (min-width: 660px) {
   .apps-kind {
     padding-left: 28px;
+  }
 
-    &__item:last-child {
-      margin-bottom: 50px;
+  .apps-kind__item:last-child {
+    margin-bottom: 50px;
+  }
+
+  .apps-kind__label {
+    padding-left: 30px;
+    padding-top: 25px;
+
+    &::before {
+      left: -15px;
+      top: 30px;
     }
 
-    &__label {
-      padding-left: 30px;
-      padding-top: 25px;
-
-      &::before {
-        left: -15px;
-        top: 30px;
-      }
-
-      &::after {
-        left: -27px;
-        top: 21px;
-      }
+    &::after {
+      left: -27px;
+      top: 21px;
     }
   }
 }
 
 @media (min-width: 960px) {
-  .apps-kind {
-    &__label {
-      padding-left: 54px;
+  .apps-kind__label {
+    padding-left: 54px;
 
-      &::before {
-        left: 8px;
-        top: 31px;
-      }
+    &::before {
+      left: 8px;
+      top: 31px;
+    }
 
-      &::after {
-        left: -3px;
-      }
+    &::after {
+      left: -3px;
     }
   }
 }

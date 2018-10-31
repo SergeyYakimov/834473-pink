@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   margin-bottom: 26px;
+}
 
-  &__label {
-    line-height: 30px;
-    color: rgb(210, 40, 86);
-    text-transform: uppercase;
-    padding-left: 48px;
-  }
+.letter__label {
+  line-height: 30px;
+  color: rgb(210, 40, 86);
+  text-transform: uppercase;
+  padding-left: 48px;
 }
 
 @media (min-width: 660px) {
@@ -18,12 +18,12 @@
     margin-bottom: 68px;
     padding-top: 19px;
     padding-bottom: 30px;
+  }
 
-    &__label {
-      text-align: center;
-      padding-left: 40px;
-      padding-right: 40px;
-    }
+  .letter__label {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -35,10 +35,10 @@
     padding-bottom: 24px;
     width: 945px;
     margin-bottom: 63px;
+  }
 
-    &__label {
-      padding-left: 38px;
-      padding-right: 40px;
-    }
+  .letter__label {
+    padding-left: 38px;
+    padding-right: 40px;
   }
 }

@@ -1,53 +1,53 @@
 .sending-photo {
   background-color: rgb(242, 242, 242);
   margin-bottom: 5px;
+}
 
-  &__slogan {
-    line-height: 30px;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding-bottom: 45px;
-    padding-top: 20px;
-    padding-left: 2px;
-  }
+.sending-photo__slogan {
+  line-height: 30px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  padding-left: 2px;
+}
 
-  &__sample-image {
-    margin-bottom: 0;
-    margin-left: 20px;
-    padding-top: 5px;
-  }
+.sending-photo__sample-image {
+  margin-bottom: 0;
+  margin-left: 20px;
+  padding-top: 5px;
 }
 
 @media (min-width: 660px) {
   .sending-photo {
     margin-bottom: 0;
+  }
 
-    &__slogan {
-      font-size: 18px;
-      padding-bottom: 70px;
-      margin-top: -10px;
+  .sending-photo__slogan {
+    font-size: 18px;
+    padding-bottom: 70px;
+    margin-top: -10px;
 
-      & br:last-child {
-        display: none;
-      }
+    & br:last-child {
+      display: none;
     }
+  }
 
-    &__wrapper {
-      display: flex;
-      padding-top: 38px;
-      padding-bottom: 0;
-    }
+  .sending-photo__wrapper {
+    display: flex;
+    padding-top: 38px;
+    padding-bottom: 0;
+  }
 
-    &__tools-container {
-      display: flex;
-      flex-direction: column;
-    }
+  .sending-photo__tools-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-    &__sample-image {
-      padding-top: 0;
-      margin-right: 20px;
-      margin-bottom: 50px;
-    }
+  .sending-photo__sample-image {
+    padding-top: 0;
+    margin-right: 20px;
+    margin-bottom: 50px;
   }
 }
 
@@ -55,18 +55,18 @@
   .sending-photo {
     padding-bottom: 0;
     margin-left: 10px;
+  }
 
-    &__slogan {
-      margin-top: -50px;
-      padding-bottom: 65px;
-      padding-left: 10px;
-    }
+  .sending-photo__slogan {
+    margin-top: -50px;
+    padding-bottom: 65px;
+    padding-left: 10px;
+  }
 
-    &__sample-image {
-      margin-left: 80px;
-      margin-right: 7px;
-      margin-bottom: 50px;
-      padding-bottom: 5px;
-    }
+  .sending-photo__sample-image {
+    margin-left: 80px;
+    margin-right: 7px;
+    margin-bottom: 50px;
+    padding-bottom: 5px;
   }
 }

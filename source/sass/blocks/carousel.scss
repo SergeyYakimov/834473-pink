@@ -4,53 +4,54 @@
   padding: 0;
   margin: 0;
   padding-top: 20px;
+}
 
-  &__toggles {
-    position: relative;
-  }
+.carousel__toggles {
+  position: relative;
+}
 
-  &__item--base {
-    display: none;
-  }
+.carousel__item--base {
+  display: none;
+}
 
-  &__item--standard {
-    min-width: 280px;
-    position: relative;
+.carousel__item--standard {
+  min-width: 280px;
+  position: relative;
 
-    &::after {
-      content: "";
-      position: absolute;
-      width: 74px;
-      height: 73px;
-      background-image: url("../img/bg-hit.svg");
-      background-size: 74px 73px;
-      background-repeat: no-repeat;
-      top: 0;
-      left: 0;
-      z-index: 1;
-    }
-  }
-
-  &__item--no-limit {
-    display: none;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 74px;
+    height: 73px;
+    background-image: url("../img/bg-hit.svg");
+    background-size: 74px 73px;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 1;
   }
 }
+
+.carousel__item--no-limit {
+  display: none;
+}
+
 
 @media (min-width: 660px) {
   .carousel {
     padding-top: 0;
     margin-top: -30px;
+  }
 
-    &__item--base {
+  .carousel__item {
+    width: 156px;
+    margin-right: 2px;
+
+    &--base {
       display: block;
     }
 
-    &__item {
-      width: 156px;
-      margin-right: 2px;
-    }
-
-    &__item--standard {
+    &--standard {
       min-width: 152px;
       width: 152px;
 
@@ -63,23 +64,21 @@
 }
 
 @media (min-width: 960px) {
-  .carousel {
-    &__item {
-      width: 235px;
+  .carousel__item {
+    width: 235px;
 
-      &--no-limit {
-        width: 229px;
-      }
+    &--no-limit {
+      width: 229px;
+    }
 
-      &--standard {
-        width: 232px;
+    &--standard {
+      width: 232px;
 
-        &::after {
-          background-image: url("../img/bg-hit-desktop.svg");
-          background-size: 74px 73px;
-          left: 0;
-          top: 0;
-        }
+      &::after {
+        background-image: url("../img/bg-hit-desktop.svg");
+        background-size: 74px 73px;
+        left: 0;
+        top: 0;
       }
     }
   }

@@ -1,17 +1,15 @@
-.email {
-  &__link {
-    font-weight: lighter;
-    font-size: 24px;
-    color: rgb(210, 40, 86);
+.email__link {
+  font-weight: lighter;
+  font-size: 24px;
+  color: rgb(210, 40, 86);
 
-    &:hover {
-      color: rgb(40, 54, 69);
-      border-bottom: 2px solid rgb(40, 54, 69);
-    }
+  &:hover {
+    color: rgb(40, 54, 69);
+    border-bottom: 2px solid rgb(40, 54, 69);
+  }
 
-    &:active {
-      color: rgba(40, 54, 69, 0.3);
-      border-bottom: none;
-    }
+  &:active {
+    color: rgba(40, 54, 69, 0.3);
+    border-bottom: none;
   }
 }

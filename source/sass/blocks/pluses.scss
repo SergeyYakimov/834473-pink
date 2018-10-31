@@ -1,21 +1,21 @@
 .pluses {
   padding-left: 8px;
   padding-right: 8px;
+}
 
-  &__title {
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    margin-bottom: -3px;
-    padding-left: 5px;
-  }
+.pluses__title {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  margin-bottom: -3px;
+  padding-left: 5px;
+}
 
-  &__text {
-    font-weight: normal;
+.pluses__text {
+  font-weight: normal;
 
-    &--2 br {
-      display: none;
-    }
+  &--2 br {
+    display: none;
   }
 }
 
@@ -27,63 +27,61 @@
     &:last-child {
       margin-bottom: 30px;
     }
+  }
 
-    &__title {
-      padding-left: 0;
-      margin-bottom: 0;
-    }
+  .pluses__title {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
 
-    &__text {
-      padding-right: 10px;
+  .pluses__text {
+    padding-right: 10px;
 
-      &--2 br {
-        display: inline;
-      }
+    &--2 br {
+      display: inline;
     }
   }
 }
 
 @media (min-width: 960px) {
-  .pluses {
-    &__title {
-      font-size: 30px;
-      line-height: 30px;
-      text-align: center;
-      margin-bottom: 25px;
-      padding-right: 40px;
-      margin-left: 35px;
+  .pluses__title {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-right: 40px;
+    margin-left: 35px;
 
-      &--2 {
-        padding-right: 20px;
-      }
+    &--2 {
+      padding-right: 20px;
+    }
 
-      &--3 {
-        padding-right: 10px;
-        margin-left: 0;
+    &--3 {
+      padding-right: 10px;
+      margin-left: 0;
+    }
+  }
+
+  .pluses__text {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+
+    &--1 {
+      padding-right: 10px;
+    }
+
+    &--2 {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      br {
+        display: none;
       }
     }
 
-    &__text {
-      font-size: 18px;
-      line-height: 30px;
-      text-align: center;
-
-      &--1 {
-        padding-right: 10px;
-      }
-
-      &--2 {
-        padding-left: 10px;
-        padding-right: 10px;
-
-        br {
-          display: none;
-        }
-      }
-
-      &--3 {
-        padding-right: 20px;
-      }
+    &--3 {
+      padding-right: 20px;
     }
   }
 }

@@ -8,34 +8,34 @@
   &--main-photo {
     margin-top: -5px;
   }
+}
 
-  &__author {
-    font-weight: bold;
-    padding-top: 22px;
-  }
+.photo-description__author {
+  font-weight: bold;
+  padding-top: 22px;
+}
 
-  &__time {
-    font-weight: lighter;
-    font-size: 12px;
-    text-transform: uppercase;
-  }
+.photo-description__time {
+  font-weight: lighter;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
-  &__text {
-    padding-left: 17px;
-    padding-right: 14px;
-    margin-top: 0;
-    padding-top: 17px;
-    margin-bottom: 10px;
+.photo-description__text {
+  padding-left: 17px;
+  padding-right: 14px;
+  margin-top: 0;
+  padding-top: 17px;
+  margin-bottom: 10px;
 
-    &--second,
-    &--third,
-    &--fourth,
-    &--fifth,
-    &--sixth,
-    &--seventh {
-      padding-top: 25px;
-      margin-top: -15px;
-    }
+  &--second,
+  &--third,
+  &--fourth,
+  &--fifth,
+  &--sixth,
+  &--seventh {
+    padding-top: 25px;
+    margin-top: -15px;
   }
 }
 
@@ -61,46 +61,46 @@
       position: relative;
       margin-top: 510px;
     }
+  }
 
-    &__text {
-      padding-top: 18px;
-      padding-left: 20px;
+  .photo-description__text {
+    padding-top: 18px;
+    padding-left: 20px;
 
-      &--second {
-        padding-top: 30px;
-        padding-left: 8px;
-        margin-bottom: 14px;
-      }
+    &--second {
+      padding-top: 30px;
+      padding-left: 8px;
+      margin-bottom: 14px;
+    }
 
-      &--third {
-        margin-bottom: 37px;
-        padding-top: 30px;
-        padding-left: 8px;
-      }
+    &--third {
+      margin-bottom: 37px;
+      padding-top: 30px;
+      padding-left: 8px;
+    }
 
-      &--fourth {
-        margin-bottom: 14px;
-        padding-top: 30px;
-        padding-left: 8px;
-      }
+    &--fourth {
+      margin-bottom: 14px;
+      padding-top: 30px;
+      padding-left: 8px;
+    }
 
-      &--fifth {
-        margin-bottom: 37px;
-        padding-top: 30px;
-        padding-left: 8px;
-      }
+    &--fifth {
+      margin-bottom: 37px;
+      padding-top: 30px;
+      padding-left: 8px;
+    }
 
-      &--sixth {
-        margin-bottom: 37px;
-        padding-top: 30px;
-        padding-left: 8px;
-      }
+    &--sixth {
+      margin-bottom: 37px;
+      padding-top: 30px;
+      padding-left: 8px;
+    }
 
-      &--seventh {
-        margin-bottom: 37px;
-        padding-top: 30px;
-        padding-left: 8px;
-      }
+    &--seventh {
+      margin-bottom: 37px;
+      padding-top: 30px;
+      padding-left: 8px;
     }
   }
 }

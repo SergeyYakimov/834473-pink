@@ -12,14 +12,14 @@
     background-repeat: no-repeat;
     text-align: left;
     padding-left: 330px;
+  }
 
-    &__conclusion {
-      font-size: 30px;
-      line-height: 36px;
-      color: rgb(0, 0, 0);
-      padding-right: 0;
-      margin-bottom: -8px;
-    }
+  .research__conclusion {
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(0, 0, 0);
+    padding-right: 0;
+    margin-bottom: -8px;
   }
 }
 
@@ -32,13 +32,13 @@
     background-position: 1% 17%;
     background-size: 310px 345px;
     padding-bottom: 110px;
+  }
 
-    &__conclusion {
-      margin-bottom: 2px;
+  .research__conclusion {
+    margin-bottom: 2px;
 
-      & br {
-        display: none;
-      }
+    & br {
+      display: none;
     }
   }
 }

@@ -9,35 +9,35 @@
   &--photo {
     padding-left: 15px;
   }
+}
 
-  &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
-  }
+.page-footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
 
-  &__bottom {
+.page-footer__bottom {
+  display: none;
+}
+
+.page-footer__logo {
+  margin-bottom: 35px;
+
+  &:nth-child(2) {
     display: none;
   }
 
-  &__logo {
-    margin-bottom: 35px;
+  &:hover path {
+    fill: rgb(210, 40, 86);
+  }
 
-    &:nth-child(2) {
-      display: none;
-    }
+  &:active {
+    opacity: 0.3;
 
-    &:hover path {
-      fill: rgb(210, 40, 86);
-    }
-
-    &:active {
-      opacity: 0.3;
-
-      & g path {
-        fill: rgb(40, 54, 69);
-      }
+    & g path {
+      fill: rgb(40, 54, 69);
     }
   }
 }
@@ -55,35 +55,35 @@
       padding-top: 25px;
       padding-left: 20px;
     }
+  }
 
-    &__wrapper {
-      padding-left: 47px;
-      padding-right: 31px;
+  .page-footer__wrapper {
+    padding-left: 47px;
+    padding-right: 31px;
 
-      &--photo {
-        padding-left: 0;
-        flex-direction: row;
-        padding-top: 0;
-      }
-
-      &--form {
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-    }
-
-    &__bottom {
-      display: flex;
-      padding-left: 20px;
+    &--photo {
+      padding-left: 0;
+      flex-direction: row;
       padding-top: 0;
     }
 
-    &__logo {
-      margin-right: 70px;
+    &--form {
+      padding-left: 0;
+      padding-right: 0;
+      margin-top: 0;
+      flex-direction: row;
+      justify-content: space-between;
     }
+  }
+
+  .page-footer__bottom {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 0;
+  }
+
+  .page-footer__logo {
+    margin-right: 70px;
   }
 }
 
@@ -100,28 +100,28 @@
       padding-top: 30px;
       padding-left: 10px;
     }
+  }
 
-    &__wrapper {
-      padding-left: 0;
-      padding-right: 0;
+  .page-footer__wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page-footer__bottom {
+    padding-left: 10px;
+    padding-top: 22px;
+    padding-right: 0;
+    margin: 0;
+  }
+
+  .page-footer__logo {
+    &:nth-child(1) {
+      display: none;
     }
 
-    &__bottom {
-      padding-left: 10px;
-      padding-top: 22px;
-      padding-right: 0;
-      margin: 0;
-    }
-
-    &__logo {
-      &:nth-child(1) {
-        display: none;
-      }
-
-      &:nth-child(2) {
-        display: block;
-        margin-right: 230px;
-      }
+    &:nth-child(2) {
+      display: block;
+      margin-right: 230px;
     }
   }
 }

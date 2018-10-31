@@ -1,29 +1,27 @@
-.scientific-information {
-  &__text {
-    padding-right: 23px;
-  }
+.scientific-information__text {
+  padding-right: 23px;
+}
 
-  &__link {
-    color: rgb(210, 40, 86);
-    text-decoration: underline;
-  }
+.scientific-information__link {
+  color: rgb(210, 40, 86);
+  text-decoration: underline;
 }
 
 @media (min-width: 960px) {
   .scientific-information {
     font-size: 18px;
     line-height: 30px;
+  }
 
-    &__text {
-      margin-bottom: 34px;
+  .scientific-information__text {
+    margin-bottom: 34px;
 
-      & br {
-        display: none;
-      }
+    & br {
+      display: none;
+    }
 
-      & span {
-        margin-right: -50px;
-      }
+    & span {
+      margin-right: -50px;
     }
   }
 }

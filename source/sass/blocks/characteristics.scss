@@ -9,21 +9,21 @@
   padding-bottom: 17px;
   height: 59px;
   border-top: none;
+}
 
-  &__index {
-    line-height: 30px;
-    text-transform: uppercase;
-  }
+.characteristics__index {
+  line-height: 30px;
+  text-transform: uppercase;
+}
 
-  &__check {
-    background-image: url("../img/icon-yes.svg");
-    background-repeat: no-repeat;
-    width: 32px;
-    height: 23px;
-    margin-right: 13px;
-  }
+.characteristics__check {
+  background-image: url("../img/icon-yes.svg");
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 23px;
+  margin-right: 13px;
 
-  &__check--no {
+  &--no {
     background-image: url("../img/icon-no.svg");
     background-repeat: no-repeat;
     width: 27px;
@@ -36,18 +36,18 @@
   .characteristics {
     height: 48px;
     border-right: none;
+  }
 
-    &__index {
-      display: none;
-    }
+  .characteristics__index {
+    display: none;
+  }
 
-    &__check {
-      margin-top: -3px;
-      margin-left: 40px;
+  .characteristics__check {
+    margin-top: -3px;
+    margin-left: 40px;
 
-      &--no {
-        margin-top: -9px;
-      }
+    &--no {
+      margin-top: -9px;
     }
   }
 }
@@ -55,15 +55,15 @@
 @media (min-width: 960px) {
   .characteristics {
     height: 61px;
+  }
 
-    &__check {
-      margin-top: 5px;
+  .characteristics__check {
+    margin-top: 5px;
+    margin-left: 80px;
+
+    &--no {
       margin-left: 80px;
-
-      &--no {
-        margin-left: 80px;
-        margin-top: 0;
-      }
+      margin-top: 0;
     }
   }
 }

@@ -1,19 +1,17 @@
-.slider {
-  &__item {
-    display: none;
+.slider__item {
+  display: none;
 
-    &:first-child {
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
+  &:first-child {
+    display: block;
+    margin: 0;
+    padding: 0;
   }
+}
 
-  &__toggles {
-    position: relative;
+.slider__toggles {
+  position: relative;
 
-    input {
-      display: none;
-    }
+  input {
+    display: none;
   }
 }

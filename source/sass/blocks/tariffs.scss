@@ -5,81 +5,81 @@
   padding-top: 54px;
   padding-bottom: 103px;
   padding-left: 20px;
+}
 
-  &__item:nth-of-type(1) {
-    display: none;
-  }
+.tariffs__item:nth-of-type(1) {
+  display: none;
+}
 
-  &__item:last-of-type {
-    display: none;
-  }
+.tariffs__item:last-of-type {
+  display: none;
+}
 
-  &__name {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding-top: 17px;
-    background-color: rgb(40, 54, 69);
-    border: 2px solid rgb(40, 54, 69);
-    box-sizing: border-box;
-    min-height: 77px;
-    padding-bottom: 20px;
-  }
+.tariffs__name {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 17px;
+  background-color: rgb(40, 54, 69);
+  border: 2px solid rgb(40, 54, 69);
+  box-sizing: border-box;
+  min-height: 77px;
+  padding-bottom: 20px;
+}
 
-  &__price {
-    font-weight: lighter;
-    font-size: 24px;
-    line-height: 30px;
-    color: rgb(255, 255, 255);
-  }
+.tariffs__price {
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
 }
 
 @media (min-width: 660px) {
   .tariffs {
     padding-top: 113px;
     padding-bottom: 65px;
+  }
 
-    &__toggles {
-      display: none;
-    }
+  .tariffs__toggles {
+    display: none;
+  }
 
-    &__item:nth-of-type(1) {
-      display: block;
-    }
+  .tariffs__item:nth-of-type(1) {
+    display: block;
+  }
 
-    &__item:last-of-type {
-      display: block;
-    }
+  .tariffs__item:last-of-type {
+    display: block;
+  }
 
-    &__item {
-      width: 152px;
-      margin-right: 2px;
-    }
+  .tariffs__item {
+    width: 152px;
+    margin-right: 2px;
+  }
 
-    &__list {
-      display: flex;
-    }
+  .tariffs__list {
+    display: flex;
+  }
 
-    &__name {
-      font-size: 16px;
-      min-height: 40px;
-      padding-top: 8px;
-      padding-bottom: 5px;
-    }
+  .tariffs__name {
+    font-size: 16px;
+    min-height: 40px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+  }
 
-    &__price {
-      font-size: 18px;
-    }
+  .tariffs__price {
+    font-size: 18px;
+  }
 
-    &__list-characteristics {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 153px;
-    }
+  .tariffs__list-characteristics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 153px;
   }
 }
 
@@ -90,29 +90,29 @@
     padding-bottom: 95px;
     padding-left: 10px;
     padding-right: 10px;
+  }
 
-    &__item {
-      width: 263px;
-    }
+  .tariffs__item {
+    width: 263px;
+  }
 
-    &__name {
-      padding-top: 15px;
-      padding-bottom: 18px;
-      font-size: 18px;
-      line-height: 30px;
-      min-height: 40px;
-      padding-left: 5px;
-    }
+  .tariffs__name {
+    padding-top: 15px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 40px;
+    padding-left: 5px;
+  }
 
-    &__price {
-      font-size: 24px;
-      line-height: 30px;
-    }
+  .tariffs__price {
+    font-size: 24px;
+    line-height: 30px;
+  }
 
-    &__list-characteristics {
-      width: 233px;
-      font-size: 18px;
-      line-height: 30px;
-    }
+  .tariffs__list-characteristics {
+    width: 233px;
+    font-size: 18px;
+    line-height: 30px;
   }
 }

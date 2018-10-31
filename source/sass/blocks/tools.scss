@@ -1,133 +1,127 @@
-.tools {
-  &__button {
-    font-size: 0;
-    border: 0;
+.tools__button {
+  font-size: 0;
+  border: 0;
 
-    &--cut {
-      width: 44px;
-      height: 44px;
-      background-color: transparent;
-      stroke: none;
+  &--cut {
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    stroke: none;
+  }
+
+  &--fill {
+    width: 48px;
+    height: 43px;
+    background-color: transparent;
+    border: none;
+  }
+
+  &--contrast {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+
+    & path {
+      fill: rgba(40, 54, 69, 0.3);
     }
 
-    &--fill {
-      width: 48px;
-      height: 43px;
-      background-color: transparent;
-      border: none;
+    &:hover path {
+      fill: rgba(40, 54, 69, 0.5);
     }
 
-    &--contrast {
-      width: 32px;
-      height: 32px;
-      background-color: transparent;
-      border: none;
+    &:focus path {
+      fill: rgba(210, 40, 86, 1);
+    }
+  }
+
+  & path:nth-of-type(2) {
+    fill: rgba(40, 54, 69, 0.3);
+  }
+
+  & rect {
+    fill: rgba(40, 54, 69, 0.3);
+  }
+
+  &:hover rect {
+    fill: rgba(40, 54, 69, 0.5);
+  }
+
+  &:focus rect {
+    fill: rgba(210, 40, 86, 1);
+  }
+
+  &:hover path:nth-of-type(2) {
+    fill: rgba(40, 54, 69, 0.5);
+  }
+
+  &:focus path:nth-of-type(2) {
+    fill: rgba(210, 40, 86, 1);
+  }
+
+  &:focus + .range-controls {
+    display: block;
+  }
+
+  &:not(:focus) + .range-controls {
+    display: none;
+  }
+
+  &:focus ~ .range-controls .toggle {
+    background-color: rgb(210, 40, 86);
+  }
+}
+
+@media (min-width: 660px) {
+  .tools__button {
+    &:not(:focus) + .range-controls {
+      display: block;
+    }
+
+    &--cut svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    &--fill svg {
+      width: 24px;
+      height: 22px;
+    }
+
+    &--contrast svg {
+      width: 16px;
+      height: 16px;
 
       & path {
-        fill: rgba(40, 54, 69, 0.3);
-      }
-
-      &:hover path {
-        fill: rgba(40, 54, 69, 0.5);
-      }
-
-      &:focus path {
         fill: rgba(210, 40, 86, 1);
       }
     }
 
     & path:nth-of-type(2) {
-      fill: rgba(40, 54, 69, 0.3);
+      fill: rgba(210, 40, 86, 1);
     }
 
     & rect {
-      fill: rgba(40, 54, 69, 0.3);
-    }
-
-    &:hover rect {
-      fill: rgba(40, 54, 69, 0.5);
-    }
-
-    &:focus rect {
       fill: rgba(210, 40, 86, 1);
-    }
-
-    &:hover path:nth-of-type(2) {
-      fill: rgba(40, 54, 69, 0.5);
-    }
-
-    &:focus path:nth-of-type(2) {
-      fill: rgba(210, 40, 86, 1);
-    }
-
-    &:focus + .range-controls {
-      display: block;
-    }
-
-    &:not(:focus) + .range-controls {
-      display: none;
-    }
-
-    &:focus ~ .range-controls .toggle {
-      background-color: rgb(210, 40, 86);
-    }
-  }
-}
-
-@media (min-width: 660px) {
-  .tools {
-    &__button {
-      &:not(:focus) + .range-controls {
-        display: block;
-      }
-
-      &--cut svg {
-        width: 22px;
-        height: 22px;
-      }
-
-      &--fill svg {
-        width: 24px;
-        height: 22px;
-      }
-
-      &--contrast svg {
-        width: 16px;
-        height: 16px;
-
-        & path {
-          fill: rgba(210, 40, 86, 1);
-        }
-      }
-
-      & path:nth-of-type(2) {
-        fill: rgba(210, 40, 86, 1);
-      }
-
-      & rect {
-        fill: rgba(210, 40, 86, 1);
-      }
     }
   }
 }
 
 @media (min-width: 960px) {
-  .tools {
-    &__button {
-      &--cut svg {
-        width: 44px;
-        height: 44px;
-      }
+  .tools__button {
+    &--cut svg {
+      width: 44px;
+      height: 44px;
+    }
 
-      &--fill svg {
-        width: 48px;
-        height: 43px;
-      }
+    &--fill svg {
+      width: 48px;
+      height: 43px;
+    }
 
-      &--contrast svg {
-        width: 32px;
-        height: 32px;
-      }
+    &--contrast svg {
+      width: 32px;
+      height: 32px;
     }
   }
 }

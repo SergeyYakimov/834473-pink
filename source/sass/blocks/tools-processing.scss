@@ -2,65 +2,65 @@
   border-bottom: rgb(221, 223, 224);
   padding-bottom: 24px;
   margin-bottom: 55px;
+}
 
-  &__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin-left: 50px;
-    margin-top: 15px;
+.tools-processing__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.tools-processing__item {
+  position: relative;
+  margin-right: 35px;
+
+  &:nth-child(2) {
+    margin-right: 40px;
   }
 
-  &__item {
-    position: relative;
-    margin-right: 35px;
-
-    &:nth-child(2) {
-      margin-right: 40px;
-    }
-
-    &:last-child {
-      margin-right: 0;
-      margin-top: 7px;
-    }
+  &:last-child {
+    margin-right: 0;
+    margin-top: 7px;
   }
 }
 
 @media (min-width: 660px) {
   .tools-processing {
     margin-bottom: 0;
+  }
 
-    &__list {
-      flex-direction: column;
-      margin-left: 0;
-      margin-top: 0;
+  .tools-processing__list {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .tools-processing__item {
+    margin-top: -2px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+    position: relative;
+
+    &:nth-child(2) {
+      margin-bottom: 22px;
     }
 
-    &__item {
-      margin-top: -2px;
-      padding-left: 15px;
-      margin-bottom: 35px;
-      position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 275px;
+      height: 1px;
+      background-color: rgba(53, 118, 187, 0.1);
+      top: 55px;
+      left: 25px;
+    }
 
-      &:nth-child(2) {
-        margin-bottom: 22px;
-      }
-
-      &::after {
-        content: "";
-        position: absolute;
-        width: 275px;
-        height: 1px;
-        background-color: rgba(53, 118, 187, 0.1);
-        top: 55px;
-        left: 25px;
-      }
-
-      &:last-child {
-        margin-bottom: 25px;
-        padding-left: 23px;
-      }
+    &:last-child {
+      margin-bottom: 25px;
+      padding-left: 23px;
     }
   }
 }
@@ -69,26 +69,26 @@
   .tools-processing {
     margin-bottom: 90px;
     margin-top: -15px;
+  }
 
-    &__list {
-      padding-left: 60px;
+  .tools-procesing__list {
+    padding-left: 60px;
+  }
+
+  .tools-processing__item {
+    margin-bottom: 17px;
+
+    &::after {
+      width: 410px;
+      top: 75px;
     }
 
-    &__item {
-      margin-bottom: 17px;
+    &:nth-child(2) {
+      margin-bottom: 9px;
+    }
 
-      &::after {
-        width: 410px;
-        top: 75px;
-      }
-
-      &:nth-child(2) {
-        margin-bottom: 9px;
-      }
-
-      &:nth-child(3)::after {
-        top: 65px;
-      }
+    &:nth-child(3)::after {
+      top: 65px;
     }
   }
 }

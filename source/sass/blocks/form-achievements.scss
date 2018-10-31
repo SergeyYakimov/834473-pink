@@ -3,19 +3,19 @@
   margin: 0 -20px;
   position: relative;
   padding-top: 120px;
+}
 
-  &__legend {
-    font-size: 14px;
-    line-height: 18px;
-    color: rgb(210, 40, 86);
-    text-transform: uppercase;
-    margin-left: 35px;
-    margin-right: 35px;
-    text-align: center;
-    display: block;
-    position: absolute;
-    top: 40px;
-  }
+.form-achievements__legend {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(210, 40, 86);
+  text-transform: uppercase;
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 40px;
 }
 
 @media (min-width: 660px) {
@@ -27,12 +27,12 @@
     padding-bottom: 15px;
     margin: 0;
     margin-bottom: 50px;
+  }
 
-    &__legend {
-      position: static;
-      padding-right: 35px;
-      padding-left: 35px;
-    }
+  .form-achievements__legend {
+    position: static;
+    padding-right: 35px;
+    padding-left: 35px;
   }
 }
 
@@ -41,10 +41,10 @@
     flex-grow: 1;
     padding-bottom: 5px;
     margin-bottom: 55px;
+  }
 
-    &__legend {
-      padding-left: 32px;
-      padding-right: 33px;
-    }
+  .form-achievements__legend {
+    padding-left: 32px;
+    padding-right: 33px;
   }
 }

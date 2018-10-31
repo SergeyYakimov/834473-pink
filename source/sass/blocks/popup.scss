@@ -25,26 +25,26 @@
       padding-right: 15px;
     }
   }
+}
 
-  &__indication {
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-bottom: 30px;
-  }
+.popup__indication {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-  &__text {
-    text-align: center;
-    margin-bottom: 35px;
-  }
+.popup__text {
+  text-align: center;
+  margin-bottom: 35px;
+}
 
-  &__button {
-    &--confirmation {
-      background-color: rgb(242, 242, 242);
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
+.popup__button {
+  &--confirmation {
+    background-color: rgb(242, 242, 242);
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -55,28 +55,28 @@
     padding-left: 76px;
     padding-right: 76px;
 
-    &__indication {
-      font-size: 30px;
-      line-height: 40px;
-    }
-
-    &__text {
-      font-size: 18px;
-    }
-
     &--warning {
       &__indication {
         padding-left: 27px;
         padding-right: 27px;
       }
     }
+  }
 
-    &__button {
-      &--confirmation {
-        margin-left: -76px;
-        margin-right: -76px;
-        padding: 50px 96px;
-      }
+  .popup__indication {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .popup__text {
+    font-size: 18px;
+  }
+
+  .popup__button {
+    &--confirmation {
+      margin-left: -76px;
+      margin-right: -76px;
+      padding: 50px 96px;
     }
   }
 }
@@ -112,28 +112,28 @@
         }
       }
     }
+  }
 
-    &__button {
-      &--warning {
-        background-color: rgb(242, 242, 242);
-        margin-left: -155px;
-        margin-right: -155px;
-        margin-bottom: 0;
-        padding-top: 50px;
-        padding-bottom: 55px;
-        padding-left: 240px;
-        padding-right: 240px;
-      }
+  .popup__button {
+    &--warning {
+      background-color: rgb(242, 242, 242);
+      margin-left: -155px;
+      margin-right: -155px;
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 55px;
+      padding-left: 240px;
+      padding-right: 240px;
+    }
 
-      &--confirmation {
-        margin-left: -155px;
-        margin-right: -155px;
-        margin-bottom: 0;
-        padding-top: 50px;
-        padding-bottom: 54px;
-        padding-left: 160px;
-        padding-right: 160px;
-      }
+    &--confirmation {
+      margin-left: -155px;
+      margin-right: -155px;
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 54px;
+      padding-left: 160px;
+      padding-right: 160px;
     }
   }
 }

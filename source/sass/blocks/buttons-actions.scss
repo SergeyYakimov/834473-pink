@@ -6,8 +6,10 @@
 }
 
 @media (min-width: 660px) {
-  padding-top: 10px;
-  padding-right: 0;
+  .button-actions {
+    padding-top: 10px;
+    padding-right: 0;
+  }
 }
 
 @media (min-width: 960px) {
