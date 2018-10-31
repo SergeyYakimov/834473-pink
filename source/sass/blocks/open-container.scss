@@ -7,6 +7,9 @@
   margin-top: -20px;
   margin-bottom: -55px;
   background-color: rgba(29, 38, 49, 0.5);
+  width: 305px;
+  margin-left: -20px;
+  padding-left: 20px;
 
   &--index {
     display: none;
@@ -55,10 +58,13 @@
 @media (min-width: 660px) {
   .open-container {
     display: flex;
+    flex-direction: row;
     padding: 0;
-    padding-top: 50px;
-    margin: 0;
-    margin-bottom: -40px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-left: -190px;
+    width: 645px;
+    padding-left: 20px;
 
     &--index {
       display: none;
@@ -70,11 +76,13 @@
 
     &--form {
       display: none;
+      padding-top: 50px;
     }
   }
 
   .open-container__logo {
-    margin-right: 395px;
+    margin-right: 100px;
+    margin-bottom: -30px;
 
     &:nth-child(1) {
       display: none;
@@ -83,6 +91,11 @@
     &:nth-child(2) {
       display: block;
     }
+  }
+
+  .open-container__open {
+    position: absolute;
+    left: 580px;
   }
 }
 
