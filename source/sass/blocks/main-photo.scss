@@ -6,17 +6,6 @@
 
 @media (min-width: 660px) {
   .main-photo {
-    max-width: 700px;
-    min-width: 645px;
-    position: absolute;
-  }
-}
-
-@media (min-width: 960px) {
-  .main-photo {
-    max-width: 1200px;
-    min-width: 945px;
-    position: absolute;
-    left: -90px;
+    max-width: none;
   }
 }
