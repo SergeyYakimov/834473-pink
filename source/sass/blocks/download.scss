@@ -28,15 +28,14 @@
 
 @media (min-width: 660px) {
   .download {
-    position: absolute;
-    top: 93px;
     display: flex;
     flex-direction: column;
-    padding-top: 3px;
+    padding-top: 95px;
     padding-bottom: 0;
     padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     background-color: transparent;
-    min-height: 700px;
   }
 
   .download__slogan {
@@ -48,7 +47,7 @@
     padding-left: 55px;
     padding-right: 100px;
     line-height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
   }
 
   .download__text {
@@ -63,9 +62,7 @@
 
 @media (min-width: 960px) {
   .download {
-    top: 88px;
-    left: 0;
-    padding-top: 20px;
+    padding-top: 105px;
     padding-bottom: 40px;
     padding-right: 20px;
     min-height: 300px;
@@ -74,7 +71,7 @@
   .download__slogan {
     font-size: 50px;
     line-height: 60px;
-    margin-bottom: 0;
+    margin-bottom: 3px;
     padding-left: 0;
     padding-right: 0;
     padding-top: 10px;
